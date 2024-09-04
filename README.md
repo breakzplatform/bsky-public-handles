@@ -1,0 +1,7 @@
+- [army.social](https://army.social)
+- [beyhive.social](https://beyhive.social)
+- [pessoas.dev](https://pessoas.dev)
+- [ceuazul.online](https://ceuazul.online)
+- [codafofo.xyz](https://codafofo.xyz)
+- [codafofo.dev](https://codafofo.dev)
+- [codafofo.club](https://codafofo.club)
