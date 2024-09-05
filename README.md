@@ -12,3 +12,4 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | [codafofo.xyz](https://codafofo.xyz)      | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) |  🇧🇷 |
 | [codafofo.dev](https://codafofo.dev)      | Dev-oriented community handle | Active | [@devdavi.io](https://bsky.app/profile/devdavi.io) | 🇧🇷 |
 | [codafofo.club](https://codafofo.club)    | Dev-oriented community handle | Active | [@ferreiracode.com](https://bsky.app/profile/ferreiracode.com) | 🇧🇷 |
+| [cronicamente.online](https://cronicamente.online)  | General purpose community handle | Active | [@cronicamente.online](https://bsky.app/profile/cronicamente.online) | 🇧🇷 |
