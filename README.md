@@ -5,6 +5,7 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | URL                                       | Description | Status | Responsable | Country |
 |-------------------------------------------|--------|--------|------------|------------|
 | [army.social](https://army.social)        | Made for #BTS fandom army! | Active | [@bts.army.social](https://bsky.app/profile/bts.army.social)          | 🇧🇷 |
+| [bolhadev.com](https://bolhadev.com)        | Official #bolhadev community handle| Active | [@xburgr](https://bsky.app/profile/did:plc:7mcf3jopjztipcusxgeaj2vy)          | 🇧🇷 |
 | [beyhive.social](https://beyhive.social)  | For Beyonce fans | Active | [@beyoncebrasil.beyhive.social](https://bsky.app/profile/beyoncebrasil.beyhive.social) | 🇧🇷 |
 | [swifties.social](https://swifties.social/)  | For Taylor Swift fans | Active | [@nuno.swifties.social](https://bsky.app/profile/nuno.swifties.social)          | 🇧🇷 |
 | [pessoas.dev](https://pessoas.dev)        | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) | 🇧🇷 |
