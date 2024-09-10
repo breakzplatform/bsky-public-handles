@@ -14,3 +14,5 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | [pessoas.dev](https://pessoas.dev)        | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) | 🇧🇷 |
 | [swifties.social](https://swifties.social/)  | For Taylor Swift fans | Active | [@nuno.swifties.social](https://bsky.app/profile/nuno.swifties.social)          | 🇧🇷 |
 | [emos.social](https://emos.social/)  | For the emo community in general | Active | [@roge.emos.social](https://bsky.app/profile/roge.emos.social)          | 🇧🇷 |
+| [antsocial.club](https://antsocial.club/)  | For those who don't like to socialize | Active | [@nx.s2.rip](https://bsky.app/profile/nx.s2.rip)          | 🇧🇷 |
+| [hkr.pw](https://hkr.pw/)  | Hacker and Dev community | Active | [@nx.s2.rip](https://bsky.app/profile/nx.s2.rip)          | 🇧🇷 |
