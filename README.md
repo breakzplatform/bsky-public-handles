@@ -11,6 +11,7 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | [codafofo.dev](https://codafofo.dev)      | Dev-oriented community handle | Active | [@devdavi.io](https://bsky.app/profile/devdavi.io) | 🇧🇷 |
 | [codafofo.club](https://codafofo.club)    | Dev-oriented community handle | Active | [@ferreiracode.com](https://bsky.app/profile/ferreiracode.com) | 🇧🇷 |
 | [comunidade.dev.br](https://comunidade.dev.br)  | Dev-oriented community handle | Active | [@raisiexception.dev.br](https://bsky.app/profile/raisiexception.dev.br) | 🇧🇷 |
+| [comunidade.blue](https://comunidade.blue)  | General purpose community handle | Active | [@raisiexception.dev.br](https://bsky.app/profile/raisiexception.dev.br) | 🇧🇷 |
 | [pessoas.dev](https://pessoas.dev)        | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) | 🇧🇷 |
 | [swifties.social](https://swifties.social/)  | For Taylor Swift fans | Active | [@nuno.swifties.social](https://bsky.app/profile/nuno.swifties.social)          | 🇧🇷 |
 | [emos.social](https://emos.social/)  | For the emo community in general | Active | [@roge.emos.social](https://bsky.app/profile/roge.emos.social)          | 🇧🇷 |
