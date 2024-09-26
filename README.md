@@ -15,7 +15,7 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | [comunidade.dev.br](https://comunidade.dev.br)  | Dev-oriented community handle | Active | [@raisiexception.dev.br](https://bsky.app/profile/raisiexception.dev.br) | 🇧🇷 |
 | [comunidade.blue](https://comunidade.blue)  | General purpose community handle | Active | [@raisiexception.dev.br](https://bsky.app/profile/raisiexception.dev.br) | 🇧🇷 |
 | [emos.social](https://emos.social/)  | For the emo community in general | Active | [@roge.emos.social](https://bsky.app/profile/roge.emos.social)          | 🇧🇷 |
-| [loud.gg](https://loud.gg/products/loud-gg-no-bluesky)        | ***[PAID]*** For lond.gg fans | Active | [@loud.gg](https://bsky.app/profile/loud.gg) | 🇧🇷 |
+| [loud.gg](https://loud.gg/products/loud-gg-no-bluesky)        | ***[PAID]*** For loud.gg fans | Active | [@loud.gg](https://bsky.app/profile/loud.gg) | 🇧🇷 |
 | [pessoas.dev](https://pessoas.dev)        | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) | 🇧🇷 |
 | [hkr.pw](https://hkr.pw/)  | Hacker and Dev community | Active | [@nx.s2.rip](https://bsky.app/profile/nx.s2.rip)          | 🇧🇷 |
 | [swifties.social](https://swifties.social/)  | For Taylor Swift fans | Active | [@nuno.swifties.social](https://bsky.app/profile/nuno.swifties.social)          | 🇧🇷 |
