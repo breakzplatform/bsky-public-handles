@@ -19,3 +19,4 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 | [pessoas.dev](https://pessoas.dev)        | Dev-oriented community handle | Active | [@joseli.to](https://bsky.app/profile/joseli.to) | 🇧🇷 |
 | [hkr.pw](https://hkr.pw/)  | Hacker and Dev community | Active | [@nx.s2.rip](https://bsky.app/profile/nx.s2.rip)          | 🇧🇷 |
 | [swifties.social](https://swifties.social/)  | For Taylor Swift fans | Active | [@nuno.swifties.social](https://bsky.app/profile/nuno.swifties.social)          | 🇧🇷 |
+| [urbannaticos.com](https://urbanna.substack.com)| ***[PAID]*** For urbanna fans (paid subscribers) and members of the site | Active | [@urbannaticos.com](https://bsky.app/profile/urbannaticos.com) 
