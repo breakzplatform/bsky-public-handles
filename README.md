@@ -4,7 +4,7 @@ Website: [handles.notx.blue](https://handles.notx.blue)
 
 Here is the table ordered alphabetically by URL:
 
-| URL                                                    | Description                                 | Status     | Responsable                                                                            | Country |
+| URL                                                    | Description                                 | Status     | Responsible                                                                            | Country |
 | ------------------------------------------------------ | ------------------------------------------- | ---------- | -------------------------------------------------------------------------------------- | ------- |
 | [antsocial.club](https://antsocial.club/)              | For those who don't like to socialize       | Active     | [@nx.s2.rip](https://bsky.app/profile/nx.s2.rip)                                       | 🇧🇷      |
 | [army.social](https://army.social)                     | Made for #BTS fandom army!                  | Active     | [@bts.army.social](https://bsky.app/profile/bts.army.social)                           | 🇧🇷      |
@@ -28,6 +28,7 @@ Here is the table ordered alphabetically by URL:
 | [emos.social](https://emos.social/)                    | For the emo community in general            | Active     | [@roge.emos.social](https://bsky.app/profile/roge.emos.social)                         | 🇧🇷      |
 | [excuseme.wtf](https://skyna.me)                       | General purpose community handle            | Active     | [@darn.fish](https://bsky.app/profile/darn.fish)                                       | 🇺🇸      |
 | [femboy.gg](https://skyname.io)                        | [FREEMIUM] General purpose community handle | Active     | [@join.skyname.io](https://bsky.app/profile/join.skyname.io)                           | 🇺🇸      |
+| [forgedtheir.phd](https://forgedtheir.phd)             | For those with a spurious education         | Active     | [@hugeblank.dev](https://bsky.app/profile/hugeblank.dev)                               | 🇺🇸      |
 | [foxes.pet](https://skyname.io)                        | [FREEMIUM] General purpose community handle | Active     | [@join.skyname.io](https://bsky.app/profile/join.skyname.io)                           | 🇺🇸      |
 | [fursona.club](https://fursona.club)                   | Furry Fandom community handle               | Active     | [@sudo.fursona.club](https://bsky.app/profile/sudo.fursona.club)                       | 🇸🇪      |
 | [gorp.dog](https://skyname.io)                         | [FREEMIUM] General purpose community handle | Active     | [@join.skyname.io](https://bsky.app/profile/join.skyname.io)                           | 🇺🇸      |
