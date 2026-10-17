@@ -40,7 +40,8 @@
       }
 
       td:nth-child(3),
-      td:nth-child(5) {
+      td:nth-child(5),
+      td:nth-child(6) {
         text-align: center;
       }
     </style>
@@ -111,39 +112,112 @@
       class="max-w-4xl mx-auto p-4 rounded-lg mt-6 bg-white shadow-md"
     >
       <p v-if="error" class="text-red-500 text-center">{{ error }}</p>
-      <div v-if="tableData.length" class="overflow-x-auto">
-        <table
-          class="table-auto w-full bg-white shadow-md overflow-hidden rounded-lg"
-        >
-          <thead class="bg-blue-bsky text-white">
-            <tr>
-              <th
-                v-for="header in tableHeaders"
-                :key="header"
-                class="px-4 py-2"
-              >
-                {{ header }}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="(row, index) in tableData"
-              :key="index"
-              class="odd:bg-gray-100 even:bg-gray-50"
+      <div v-if="handles.length">
+        <div class="flex flex-col sm:flex-row gap-2 mb-4 items-center">
+          <input
+            v-model="query"
+            type="search"
+            placeholder="Search domains, descriptions or maintainers"
+            aria-label="Search"
+            class="w-full sm:flex-1 border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300"
+          />
+          <div class="flex gap-1 text-sm" role="group" aria-label="Status">
+            <button
+              v-for="option in statusOptions"
+              :key="option"
+              type="button"
+              @click="status = option"
+              :aria-pressed="status === option"
+              :class="
+                status === option
+                  ? 'bg-blue-bsky text-white'
+                  : 'bg-gray-100 text-gray-700'
+              "
+              class="rounded-full px-3 py-1 font-bold shadow-sm"
             >
-              <td
-                v-for="(value, key) in row"
-                :key="key"
-                v-html="formatValue(value)"
-                class="border px-4 py-2"
-              ></td>
-            </tr>
-          </tbody>
-        </table>
+              {{ option }}
+              <span class="font-normal opacity-75">{{ counts[option] }}</span>
+            </button>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table
+            class="table-auto w-full bg-white shadow-md overflow-hidden rounded-lg"
+          >
+            <thead class="bg-blue-bsky text-white">
+              <tr>
+                <th
+                  v-for="header in tableHeaders"
+                  :key="header"
+                  class="px-4 py-2"
+                >
+                  {{ header }}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="handle in filteredHandles"
+                :key="handle.domain"
+                class="odd:bg-gray-100 even:bg-gray-50"
+              >
+                <td class="border px-4 py-2">
+                  <a
+                    :href="safeUrl(handle.get_handle_url)"
+                    class="text-blue-bsky"
+                    target="_blank"
+                    rel="noopener"
+                    >{{ handle.domain }}</a
+                  >
+                </td>
+                <td class="border px-4 py-2">
+                  <template v-if="pricing(handle)">💰 </template
+                  >{{ description(handle) }}
+                  <span v-if="pricing(handle)" class="text-xs italic"
+                    >({{ pricing(handle) }})</span
+                  >
+                </td>
+                <td
+                  class="border px-4 py-2"
+                  :title="handle.check ? handle.check.summary : 'Not checked yet'"
+                >
+                  <template v-if="handle.status === 'Active'">🟢</template>
+                  <template v-else
+                    >🟡 <span class="text-xs italic">deprecated</span></template
+                  >
+                </td>
+                <td class="border px-4 py-2">
+                  <a
+                    v-if="handle.maintainer"
+                    :href="safeUrl(handle.maintainer.url)"
+                    class="text-blue-bsky"
+                    target="_blank"
+                    rel="noopener"
+                    >{{ handle.maintainer.name }}</a
+                  >
+                </td>
+                <td class="border px-4 py-2">{{ handle.country }}</td>
+                <td
+                  class="border px-4 py-2 text-xs whitespace-nowrap"
+                  :title="handle.check ? handle.check.summary : 'Not checked yet'"
+                >
+                  {{ handle.last_checked || "never" }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p v-if="!filteredHandles.length" class="text-center text-sm mt-4">
+          No domains match your search.
+        </p>
+        <p class="text-center text-xs text-gray-500 mt-4">
+          Status is updated by a weekly automated check<span v-if="lastRun">
+            (last run {{ lastRun }})</span
+          >. A domain is marked deprecated after failing two checks in a row.
+        </p>
       </div>
 
-      <p v-if="!tableData.length && !error" class="text-center">Loading...</p>
+      <p v-if="!handles.length && !error" class="text-center">Loading...</p>
     </div>
 
     <div class="text-center m-8">
@@ -211,99 +285,86 @@
     <script>
       const { createApp } = Vue;
 
+      // Local previews (a static server at the repository root) read the
+      // working copy of the data instead of the published one.
+      const DATA_URL = ["localhost", "127.0.0.1"].includes(location.hostname)
+        ? "/data/handles.json"
+        : "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.json";
+
+      const PRICING_TAG = /^\[(PAID|FREEMIUM)\]\s*/i;
+
       createApp({
         data() {
           return {
-            tableHeaders: [],
-            tableData: [],
+            tableHeaders: [
+              "URL",
+              "Description",
+              "Status",
+              "Responsible",
+              "Country",
+              "Last checked",
+            ],
+            statusOptions: ["Active", "Deprecated", "All"],
+            handles: [],
+            query: "",
+            status: "Active",
             error: null,
           };
         },
+        computed: {
+          counts() {
+            const counts = { All: this.handles.length, Active: 0, Deprecated: 0 };
+            for (const handle of this.handles) counts[handle.status]++;
+            return counts;
+          },
+          filteredHandles() {
+            const query = this.query.trim().toLowerCase();
+            return this.handles.filter((handle) => {
+              if (this.status !== "All" && handle.status !== this.status) {
+                return false;
+              }
+              if (!query) return true;
+              return [
+                handle.domain,
+                handle.description,
+                handle.maintainer ? handle.maintainer.name : "",
+              ].some((field) => field.toLowerCase().includes(query));
+            });
+          },
+          lastRun() {
+            return this.handles
+              .map((handle) => handle.last_checked)
+              .filter(Boolean)
+              .sort()
+              .pop();
+          },
+        },
         mounted() {
-          this.fetchMarkdownTableToJson(
-            "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/README.md"
-          );
+          this.fetchHandles(DATA_URL);
         },
         methods: {
-          async fetchMarkdownTableToJson(url) {
+          async fetchHandles(url) {
             try {
-              // Fetch the markdown content from the URL
               const response = await fetch(url);
-              const markdown = await response.text();
-
-              // Find the first table using regex
-              const tableRegex =
-                /\|(.+)\|\s*\n\|(?:[-| ]+)\|\s*\n((?:\|.+\|\s*\n)+)/;
-              const match = markdown.match(tableRegex);
-
-              if (!match) {
-                throw new Error("No table found in the markdown content");
+              if (!response.ok) throw new Error(`HTTP ${response.status}`);
+              const data = await response.json();
+              if (!Array.isArray(data.handles)) {
+                throw new Error("unexpected data format");
               }
-
-              // Split header and rows
-              this.tableHeaders = match[1]
-                .trim()
-                .split("|")
-                .map((h) => h.trim())
-                .filter((h) => h !== "");
-              const rows = match[2].trim().split("\n");
-
-              // Convert the table to JSON
-              this.tableData = rows.map((row) => {
-                const columns = row
-                  .trim()
-                  .split("|")
-                  .map((c) => c.trim())
-                  .filter((c) => c !== "");
-                let obj = {};
-                this.tableHeaders.forEach((header, index) => {
-                  obj[header] = columns[index];
-                });
-                return obj;
-              });
+              this.handles = data.handles;
             } catch (error) {
-              this.error = `Error fetching or parsing the markdown file: ${error.message}`;
+              this.error = `Error fetching the list of handles: ${error.message}`;
             }
           },
-          formatValue(value) {
-            // Convert markdown links into HTML links
-            const linkRegex = /\[(.+)\]\((https?:\/\/.+)\)/;
-            const match = value.match(linkRegex);
-            if (match) {
-              return `<a href="${match[2]}" class="text-blue-bsky" target="_blank">${match[1]}</a>`;
-            }
-
-            if (value.includes("[PAID]")) {
-              return `${value.replace(
-                "[PAID]",
-                "💰"
-              )} <span class="text-xs italic">(paid)</span>`;
-            }
-
-            if (value.includes("[FREEMIUM]")) {
-              return `${value.replace(
-                "[FREEMIUM]",
-                "💰"
-              )} <span class="text-xs italic">(freemium)</span>`;
-            }
-
-            if (value === "?") {
-              return "";
-            }
-
-            if (value === "Active") {
-              return "🟢";
-            }
-
-            if (value === "Deprecated") {
-              return `🟡  <span class="text-xs italic">deprecated</span>`;
-            }
-
-            if (value === "?") {
-              return "";
-            }
-
-            return value;
+          pricing(handle) {
+            const match = handle.description.match(PRICING_TAG);
+            return match ? match[1].toLowerCase() : null;
+          },
+          description(handle) {
+            return handle.description.replace(PRICING_TAG, "");
+          },
+          safeUrl(url) {
+            return /^https?:\/\//i.test(url) ? url : "#";
           },
         },
       }).mount("#app");
