@@ -77,6 +77,23 @@ Here is the table ordered alphabetically by URL:
 
 <!-- handles:end -->
 
+## Add your domain
+
+Run a domain where anyone can get a Bluesky handle? Add it to the list:
+
+- **Open an issue** with the
+  [Add a domain form](https://github.com/breakzplatform/bsky-public-handles/issues/new?template=add-domain.yml)
+  and a maintainer will add it; or
+- **Open a pull request** that adds an entry to
+  [`data/handles.json`](data/handles.json), keeping the list in alphabetical
+  order, then run `npm ci`, `npm run validate` and `npm run readme` and commit
+  the regenerated README.
+
+To be listed, a domain must let anyone get a handle (free, paid or freemium:
+start the description with `[PAID]` or `[FREEMIUM]` when it is not free), have
+a page explaining how to get one, and have at least one working handle under
+it.
+
 ## Maintenance scripts
 
 | Command                | What it does                                                          |

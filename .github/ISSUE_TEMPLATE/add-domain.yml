@@ -1,0 +1,74 @@
+name: Add a domain
+description: Suggest a public Bluesky handle domain for the list.
+title: "Add domain: "
+labels: ["new domain"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a domain! Once it is added, the weekly check
+        verifies that handles under it resolve. You can also open a pull
+        request that edits `data/handles.json` directly.
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: The domain handles are issued under (people get `name.<domain>`).
+      placeholder: example.social
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One short line about who the domain is for (shown in the list, max 120 characters).
+      placeholder: General purpose community handle
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing
+      options:
+        - Free
+        - Paid
+        - Freemium
+    validations:
+      required: true
+  - type: input
+    id: get_handle_url
+    attributes:
+      label: How to get a handle
+      description: Link to the page that explains how to get a handle under this domain.
+      placeholder: https://example.social
+    validations:
+      required: true
+  - type: input
+    id: sample_handle
+    attributes:
+      label: An existing handle under the domain
+      description: Used to verify that handles resolve.
+      placeholder: someone.example.social
+    validations:
+      required: true
+  - type: input
+    id: maintainer
+    attributes:
+      label: Maintainer's Bluesky handle
+      description: Who runs the domain. Leave empty if you prefer not to be listed.
+      placeholder: "@you.bsky.social"
+  - type: input
+    id: country
+    attributes:
+      label: Maintainer's country
+      description: Shown as a flag in the list.
+      placeholder: Brazil
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: Anyone can get a handle under this domain (possibly paid).
+          required: true
+        - label: I run this domain or have the maintainer's permission to list it.
+          required: true
