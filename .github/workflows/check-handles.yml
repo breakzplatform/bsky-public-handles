@@ -1,0 +1,55 @@
+name: Check handles
+
+on:
+  schedule:
+    # Every Monday at 06:23 UTC.
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: check-handles
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Exits non-zero when most checks could not complete (resolver or
+      # network outage), so a broken run never turns into a pull request.
+      - name: Check every domain
+        run: node scripts/check-handles.mjs --summary "$RUNNER_TEMP/check-summary.md"
+
+      - name: Validate the updated data
+        run: npm run validate
+
+      - name: Regenerate the README table
+        run: npm run readme
+
+      # Opens a pull request on the first run and updates the same branch and
+      # pull request on later runs until it is merged.
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/handle-check
+          delete-branch: true
+          add-paths: |
+            data/handles.json
+            README.md
+          commit-message: "chore(data): update handle check results"
+          title: "chore(data): weekly handle check"
+          body-path: ${{ runner.temp }}/check-summary.md
+          labels: automated
