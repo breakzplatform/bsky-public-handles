@@ -1,0 +1,19 @@
+{
+  "name": "bsky-public-handles",
+  "private": true,
+  "description": "Community list of public Bluesky handle domains",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check-handles.mjs",
+    "readme": "node scripts/build-readme.mjs",
+    "readme:check": "node scripts/build-readme.mjs --check",
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}
