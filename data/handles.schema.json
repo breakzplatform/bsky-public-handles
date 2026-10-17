@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.schema.json",
+  "title": "Bluesky Public Handles",
+  "description": "Community list of public Bluesky handle domains. The array order is the order shown in the README and on the site.",
+  "type": "object",
+  "required": ["handles"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "handles": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/handle" }
+    }
+  },
+  "$defs": {
+    "httpUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "handle": {
+      "type": "object",
+      "required": [
+        "domain",
+        "description",
+        "get_handle_url",
+        "maintainer",
+        "country",
+        "status",
+        "last_checked",
+        "check"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "domain": {
+          "description": "The domain handles are issued under (users get <name>.<domain>).",
+          "type": "string",
+          "pattern": "^(?=.{1,253}$)([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z][a-z0-9-]{0,61}[a-z0-9]$"
+        },
+        "description": {
+          "description": "Short description written by the contributor. A leading [PAID] or [FREEMIUM] tag marks non-free domains.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "get_handle_url": {
+          "description": "Page where people can get a handle under this domain.",
+          "$ref": "#/$defs/httpUrl"
+        },
+        "maintainer": {
+          "description": "Who runs the domain, or null when unknown.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["name", "url"],
+              "additionalProperties": false,
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "url": { "$ref": "#/$defs/httpUrl" }
+              }
+            }
+          ]
+        },
+        "country": {
+          "description": "Country of the maintainer, as a flag emoji.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 16
+        },
+        "status": {
+          "description": "Active, or Deprecated after failing two consecutive automated checks.",
+          "enum": ["Active", "Deprecated"]
+        },
+        "last_checked": {
+          "description": "Date (UTC) of the last automated check, or null if never checked.",
+          "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/date" }]
+        },
+        "check": {
+          "description": "Details of the last automated check, or null if never checked.",
+          "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/check" }]
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "required": ["result", "consecutive_failures", "method", "summary"],
+      "additionalProperties": false,
+      "properties": {
+        "result": {
+          "description": "pass or fail; error means the checker itself could not complete the check, which leaves the status untouched.",
+          "enum": ["pass", "fail", "error"]
+        },
+        "consecutive_failures": {
+          "description": "Number of consecutive runs that ended in fail. Two or more mark the domain Deprecated.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "method": {
+          "description": "sample_handle: a real handle under the domain was resolved; domain_only: no sample handle was found, so only domain-level signals were checked.",
+          "enum": ["sample_handle", "domain_only"]
+        },
+        "summary": {
+          "description": "One-line human-readable outcome.",
+          "type": "string"
+        },
+        "dns": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "resolves": { "type": "boolean" },
+            "addresses": { "type": "array", "items": { "type": "string" } },
+            "nameservers": { "type": "array", "items": { "type": "string" } },
+            "wildcard": {
+              "description": "Whether a random subdomain resolves (common for handle services).",
+              "type": "boolean"
+            }
+          }
+        },
+        "website": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "url": { "type": "string" },
+            "http_status": { "type": ["integer", "null"] },
+            "final_url": { "type": ["string", "null"] },
+            "error": { "type": ["string", "null"] }
+          }
+        },
+        "parked": {
+          "description": "Evidence the domain is parked or for sale, or null if none.",
+          "type": ["string", "null"]
+        },
+        "sample_handle": {
+          "description": "The handle that was verified, or null.",
+          "type": ["string", "null"]
+        },
+        "sample_did": { "type": ["string", "null"] },
+        "sample_source": {
+          "description": "Where the sample handle was found.",
+          "type": ["string", "null"]
+        },
+        "samples_tried": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["handle", "ok"],
+            "additionalProperties": false,
+            "properties": {
+              "handle": { "type": "string" },
+              "source": { "type": "string" },
+              "ok": { "type": "boolean" },
+              "did": { "type": ["string", "null"] },
+              "via": { "type": ["string", "null"] },
+              "error": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

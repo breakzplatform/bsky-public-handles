@@ -1,0 +1,675 @@
+{
+  "$schema": "./handles.schema.json",
+  "handles": [
+    {
+      "domain": "antsocial.club",
+      "description": "For those who don't like to socialize",
+      "get_handle_url": "https://antsocial.club/",
+      "maintainer": {
+        "name": "@nx.s2.rip",
+        "url": "https://bsky.app/profile/nx.s2.rip"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "army.social",
+      "description": "Made for #BTS fandom army!",
+      "get_handle_url": "https://army.social",
+      "maintainer": {
+        "name": "@bts.army.social",
+        "url": "https://bsky.app/profile/bts.army.social"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "arff.dogo",
+      "description": "[FREEMIUM] General purpose community handle",
+      "get_handle_url": "https://skyname.io",
+      "maintainer": {
+        "name": "@join.skyname.io",
+        "url": "https://bsky.app/profile/join.skyname.io"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bapo.chat",
+      "description": "For Felps' live stream community",
+      "get_handle_url": "https://bapo.chat/",
+      "maintainer": {
+        "name": "@ctresb.com",
+        "url": "https://bsky.app/profile/ctresb.com"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "beesky.social",
+      "description": "Join the hive!",
+      "get_handle_url": "https://beesky.social",
+      "maintainer": {
+        "name": "@barry.beesky.social",
+        "url": "https://bsky.app/profile/barry.beesky.social"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "beyhive.social",
+      "description": "For Beyonce fans",
+      "get_handle_url": "https://beyhive.social",
+      "maintainer": {
+        "name": "@beyoncebrasil.beyhive.social",
+        "url": "https://bsky.app/profile/beyoncebrasil.beyhive.social"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bluesky.bot",
+      "description": "A community handle for Bluesky bots",
+      "get_handle_url": "https://bluesky.bot",
+      "maintainer": {
+        "name": "@pirmax.fr",
+        "url": "https://bsky.app/profile/pirmax.fr"
+      },
+      "country": "🇫🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bluesky.zip",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bsky.cool",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bsky.finance",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bsky.fish",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bsky.lgbt",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "bsky.mk",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.mk",
+      "maintainer": {
+        "name": "@webdevbar.com",
+        "url": "https://bsky.app/profile/webdevbar.com"
+      },
+      "country": "🇲🇰",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "ceuazul.online",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://ceuazul.online",
+      "maintainer": {
+        "name": "@joseli.to",
+        "url": "https://bsky.app/profile/joseli.to"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "codafofo.club",
+      "description": "Dev-oriented community handle",
+      "get_handle_url": "https://codafofo.club",
+      "maintainer": {
+        "name": "@ferreiracode.com",
+        "url": "https://bsky.app/profile/ferreiracode.com"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "codafofo.dev",
+      "description": "Dev-oriented community handle",
+      "get_handle_url": "https://codafofo.dev",
+      "maintainer": {
+        "name": "@devdavi.io",
+        "url": "https://bsky.app/profile/devdavi.io"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "codafofo.xyz",
+      "description": "Dev-oriented community handle",
+      "get_handle_url": "https://codafofo.xyz",
+      "maintainer": {
+        "name": "@joseli.to",
+        "url": "https://bsky.app/profile/joseli.to"
+      },
+      "country": "🇧🇷",
+      "status": "Deprecated",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "comunidade.blue",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://comunidade.blue",
+      "maintainer": {
+        "name": "@raisiexception.dev.br",
+        "url": "https://bsky.app/profile/raisiexception.dev.br"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "comunidade.dev.br",
+      "description": "Dev-oriented community handle",
+      "get_handle_url": "https://comunidade.dev.br",
+      "maintainer": {
+        "name": "@raisiexception.dev.br",
+        "url": "https://bsky.app/profile/raisiexception.dev.br"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "cronicamente.online",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://cronicamente.online",
+      "maintainer": {
+        "name": "@cronicamente.online",
+        "url": "https://bsky.app/profile/cronicamente.online"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "emos.social",
+      "description": "For the emo community in general",
+      "get_handle_url": "https://emos.social/",
+      "maintainer": {
+        "name": "@roge.emos.social",
+        "url": "https://bsky.app/profile/roge.emos.social"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "excuseme.wtf",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "femboy.gg",
+      "description": "[FREEMIUM] General purpose community handle",
+      "get_handle_url": "https://skyname.io",
+      "maintainer": {
+        "name": "@join.skyname.io",
+        "url": "https://bsky.app/profile/join.skyname.io"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "forgedtheir.phd",
+      "description": "For those with a spurious education",
+      "get_handle_url": "https://forgedtheir.phd",
+      "maintainer": {
+        "name": "@hugeblank.dev",
+        "url": "https://bsky.app/profile/hugeblank.dev"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "foxes.pet",
+      "description": "[FREEMIUM] General purpose community handle",
+      "get_handle_url": "https://skyname.io",
+      "maintainer": {
+        "name": "@join.skyname.io",
+        "url": "https://bsky.app/profile/join.skyname.io"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "fursona.club",
+      "description": "Furry Fandom community handle",
+      "get_handle_url": "https://fursona.club",
+      "maintainer": {
+        "name": "@sudo.fursona.club",
+        "url": "https://bsky.app/profile/sudo.fursona.club"
+      },
+      "country": "🇸🇪",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "gorp.dog",
+      "description": "[FREEMIUM] General purpose community handle",
+      "get_handle_url": "https://skyname.io",
+      "maintainer": {
+        "name": "@join.skyname.io",
+        "url": "https://bsky.app/profile/join.skyname.io"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "graysky.social",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://graysky.social",
+      "maintainer": {
+        "name": "@samuel.bsky.team",
+        "url": "https://bsky.app/profile/samuel.bsky.team"
+      },
+      "country": "🇬🇧",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "hkr.pw",
+      "description": "Hacker and Dev community",
+      "get_handle_url": "https://hkr.pw/",
+      "maintainer": {
+        "name": "@nx.s2.rip",
+        "url": "https://bsky.app/profile/nx.s2.rip"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "is-extremely.gay",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://handles.domi.zip",
+      "maintainer": {
+        "name": "@domi.zip",
+        "url": "https://bsky.app/profile/domi.zip"
+      },
+      "country": "🇧🇪",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "ispost.ing",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://ispost.ing",
+      "maintainer": null,
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "lesbian.cat",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://handles.domi.zip",
+      "maintainer": {
+        "name": "@domi.zip",
+        "url": "https://bsky.app/profile/domi.zip"
+      },
+      "country": "🇧🇪",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "loud.gg",
+      "description": "[PAID] For loud.gg fans",
+      "get_handle_url": "https://loud.gg/products/loud-gg-no-bluesky",
+      "maintainer": {
+        "name": "@loud.gg",
+        "url": "https://bsky.app/profile/loud.gg"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "maw.rest",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "nsfw.science",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "paw.rest",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "pessoas.dev",
+      "description": "Dev-oriented community handle",
+      "get_handle_url": "https://pessoas.dev",
+      "maintainer": {
+        "name": "@joseli.to",
+        "url": "https://bsky.app/profile/joseli.to"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "satu.gr",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://satu.gr",
+      "maintainer": null,
+      "country": "🇬🇮",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "sergal.date",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "sergal.mom",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "sergals.art",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "shy.cat",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "skeets.online",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "sou.blue",
+      "description": "[PAID] for Joselito supporters",
+      "get_handle_url": "https://sou.blue",
+      "maintainer": {
+        "name": "@joseli.to",
+        "url": "https://bsky.app/profile/joseli.to"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "swifties.social",
+      "description": "For Taylor Swift fans",
+      "get_handle_url": "https://swifties.social/",
+      "maintainer": {
+        "name": "@nuno.swifties.social",
+        "url": "https://bsky.app/profile/nuno.swifties.social"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "the-gay.cat",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://handles.domi.zip",
+      "maintainer": {
+        "name": "@domi.zip",
+        "url": "https://bsky.app/profile/domi.zip"
+      },
+      "country": "🇧🇪",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "tired.io",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "tripazeada.club",
+      "description": "For Cellbit and Roier community",
+      "get_handle_url": "https://tripazeada.club/",
+      "maintainer": {
+        "name": "@apogrifa.tripazeada.club",
+        "url": "https://bsky.app/profile/apogrifa.tripazeada.club"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "urbannaticos.com",
+      "description": "[PAID] For urbanna fans and members",
+      "get_handle_url": "https://urbanna.substack.com",
+      "maintainer": {
+        "name": "@urbannaticos.com",
+        "url": "https://bsky.app/profile/urbannaticos.com"
+      },
+      "country": "🇧🇷",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "vibes.cool",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://skyna.me",
+      "maintainer": {
+        "name": "@darn.fish",
+        "url": "https://bsky.app/profile/darn.fish"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "vore.bar",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://bsky.shy.cat",
+      "maintainer": {
+        "name": "@owlso.me",
+        "url": "https://bsky.app/profile/owlso.me"
+      },
+      "country": "🇺🇸",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    },
+    {
+      "domain": "woke.cat",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://handles.domi.zip",
+      "maintainer": {
+        "name": "@domi.zip",
+        "url": "https://bsky.app/profile/domi.zip"
+      },
+      "country": "🇧🇪",
+      "status": "Active",
+      "last_checked": null,
+      "check": null
+    }
+  ]
+}
