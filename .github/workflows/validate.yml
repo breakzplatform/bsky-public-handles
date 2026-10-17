@@ -1,0 +1,31 @@
+name: Validate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Validate data/handles.json against the schema
+        run: npm run validate
+
+      - name: Check the README table matches the data
+        run: npm run readme:check
+
+      - name: Check script syntax
+        run: for f in scripts/*.mjs; do node --check "$f"; done
