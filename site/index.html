@@ -42,8 +42,8 @@
     .hn-btn-sm { padding: 4px 8px; font: var(--type-meta); text-transform: lowercase; letter-spacing: var(--tracking-meta); }
     .hn-btn svg { width: 13px; height: 13px; flex: none; }
 
-    /* The wordmark: the name in Computer Modern, the domain on a tilted ink
-       block. Sized to fit "handles.notx.blue" on one line at 320px. */
+    /* The wordmark: the name on an ink block tilted +1.5deg like a sticker,
+       the domain plain. Sized to fit "handles.notx.blue" on one line at 320px. */
     .hn-wordmark {
       margin: var(--space-11) 0 var(--space-6);
       font: var(--weight-display) clamp(34px, 9.6vw, 88px)/1.1 var(--font-display);
@@ -158,7 +158,7 @@
     </div>
 
     <main>
-      <h1 class="hn-wordmark">handles<span class="ink-block tilt">.notx.blue</span></h1>
+      <h1 class="hn-wordmark"><span class="ink-block tilt-cw">handles</span>.notx.blue</h1>
       <p class="hn-lede">Public domains you can use as your Bluesky handle.</p>
       <p class="hn-byline hn-meta">
         Work in progress. Expect bugs · part of <a href="https://notx.blue">notx.blue</a> by
