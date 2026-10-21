@@ -15,60 +15,54 @@
   <link rel="stylesheet" href="assets/ds.css" />
   <style>
     /* handles.notx.blue components, built on the joseli.to design system tokens
-       in assets/ds.css and following share.notx.blue's layout. Every colour,
-       rule, gap and font is a token. */
+       in assets/ds.css and following down.blue's header and footer. Every
+       colour, rule, gap and font is a token. */
 
     [hidden] { display: none !important; }
 
     .hn-page { max-width: var(--page-max); margin: 0 auto; padding: 0 var(--page-pad-x) var(--space-12); }
 
-    .hn-topbar { display: flex; justify-content: flex-end; padding-top: var(--space-6); }
+    .hn-topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: var(--space-4); padding-top: var(--space-6); }
 
     /* Anything in CAPS is typewriter; sentences are CM Sans; serif is the wordmark. */
     .hn-meta { font: var(--type-meta); text-transform: uppercase; letter-spacing: var(--tracking-meta); color: var(--text-3); }
-    .hn-label { font: var(--type-label); text-transform: uppercase; letter-spacing: var(--tracking-meta); }
+    .hn-micro { font: var(--type-label); text-transform: uppercase; letter-spacing: var(--tracking-meta); }
     .hn-note { font: var(--type-code); color: var(--text-3); }
 
     .hn-btn {
       display: inline-flex; align-items: center; justify-content: center; gap: var(--space-3);
-      background: var(--surface-card); color: var(--text-1);
-      font: var(--weight-bold) var(--text-body)/1.25 var(--font-body);
-      padding: 10px 14px; cursor: pointer; text-decoration: none;
+      background: var(--surface-page); color: var(--text-1);
+      font: var(--weight-bold) var(--text-body-sm)/1.25 var(--font-body);
+      padding: 8px 12px; cursor: pointer; text-align: center; text-decoration: none;
     }
-    a.hn-btn, a.hn-btn:visited, a.hn-btn:hover { color: var(--text-1); text-decoration: none; }
+    a.hn-btn, a.hn-btn:visited, a.hn-btn:hover { color: var(--text-1); background: var(--surface-page); text-decoration: none; }
     .hn-btn-primary, a.hn-btn-primary, a.hn-btn-primary:visited, a.hn-btn-primary:hover {
       background: var(--project-ink); color: var(--project-ink-contrast);
     }
-    .hn-btn-sm { padding: 4px 8px; font: var(--type-meta); text-transform: lowercase; letter-spacing: var(--tracking-meta); }
-    .hn-btn svg { width: 13px; height: 13px; flex: none; }
+    .hn-btn-sm { padding: 4px 7px; font-size: var(--text-meta); }
 
     /* The wordmark: the name on an ink block tilted +1.5deg like a sticker,
        the domain plain. Sized to fit "handles.notx.blue" on one line at 320px. */
     .hn-wordmark {
-      margin: var(--space-11) 0 var(--space-6);
+      margin: var(--space-10) 0 var(--space-6);
       font: var(--weight-display) clamp(34px, 9.6vw, 88px)/1.1 var(--font-display);
       letter-spacing: var(--tracking-display);
+      color: var(--text-1);
       text-align: center;
       white-space: nowrap;
     }
-    .hn-lede { margin: 0 auto var(--space-4); max-width: var(--measure-dek); text-align: center; color: var(--text-2); }
-    .hn-byline { margin: 0 0 var(--space-10); text-align: center; }
 
-    .hn-callout { display: grid; grid-template-columns: max-content 1fr; margin-bottom: var(--space-10); }
-    .hn-callout-spine { display: grid; place-items: center; width: 34px; background: var(--project-ink); color: var(--project-ink-contrast); border-right: var(--border); }
-    .hn-callout-body { padding: var(--space-5) var(--space-6); font: var(--type-dek); color: var(--text-2); }
-    .hn-callout-body strong { color: var(--text-1); }
-
-    .hn-panel { margin-bottom: var(--space-10); }
+    .hn-panel { margin: var(--space-11) 0 var(--space-10); }
     .hn-panel-head {
+      display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
       margin: 0; padding: var(--box-head-pad); border-bottom: var(--border);
       background: var(--project-ink); color: var(--project-ink-contrast);
-      font: var(--weight-bold) var(--text-caption)/1.4 var(--font-mono);
+      font: var(--weight-bold) var(--text-caption)/1.3 var(--font-mono);
       letter-spacing: var(--tracking-meta); text-transform: uppercase;
-      display: flex; justify-content: space-between; gap: var(--space-4);
     }
     .hn-panel-body { padding: var(--space-6); }
     @media (min-width: 640px) { .hn-panel-body { padding: var(--space-8); } }
+    .hn-intro { margin: 0 0 var(--space-7); }
 
     /* Search and status filter: stacked on a phone, one row from 640px. */
     .hn-controls { display: grid; gap: var(--space-6); margin-bottom: var(--space-7); }
@@ -93,8 +87,8 @@
     .hn-row-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-3) var(--space-4); margin-bottom: var(--space-2); }
     .hn-domain { font: var(--type-feed-title); letter-spacing: var(--tracking-display); overflow-wrap: anywhere; }
     .hn-desc { margin: 0 0 var(--space-3); font: var(--type-compact); color: var(--text-2); }
+    .hn-row .hn-meta { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); margin: 0; }
     .hn-row .hn-meta a { text-transform: none; }
-    .hn-row .hn-meta { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
     .hn-row .hn-meta > span + span::before { content: "·"; margin-right: var(--space-3); }
 
     .hn-tag { display: inline-block; padding: 2px 6px; border: var(--border); font: var(--type-label); text-transform: uppercase; letter-spacing: var(--tracking-meta); }
@@ -106,12 +100,17 @@
     .hn-panel-foot { margin: var(--space-7) 0 0; text-align: center; }
     .hn-error { color: var(--status-error); text-align: center; margin: 0; }
 
-    .hn-actions { display: flex; justify-content: center; margin-bottom: var(--space-11); }
+    .hn-actions { display: flex; justify-content: center; margin-bottom: var(--space-10); }
 
+    .hn-callout { display: grid; grid-template-columns: max-content 1fr; margin-bottom: var(--space-9); }
+    .hn-callout-spine { display: grid; place-items: center; width: 44px; background: var(--ink-yellow); color: var(--on-yellow); border-right: var(--border); }
+    .hn-callout-promo { background: color-mix(in srgb, var(--ink-yellow) 22%, var(--surface-card)); }
+    .hn-callout-body { padding: var(--space-5) var(--space-6); font: var(--type-body); color: var(--text-1); }
 
-    .hn-footer { padding-top: var(--space-6); border-top: var(--border); text-align: center; }
-    .hn-footer p { margin: 0 0 var(--space-7); }
-    .hn-support { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-5); }
+    .hn-callout-top { margin: var(--space-10) 0 0; }
+    .hn-footer { padding-top: var(--space-6); text-align: center; }
+    .hn-footer > * { margin: 0 0 var(--space-8); }
+    .hn-support { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-4); }
 
     /* Support links: each takes a system ink with its on-* partner, so they
        stay legible in all three themes. */
@@ -132,17 +131,21 @@
 <body>
   <div class="hn-page">
     <div class="hn-topbar">
-      <!-- One button cycles light, dark, terminal. Label and icon show the
-           next theme; aria-label states both. -->
+      <button type="button" id="lang-toggle" lang="pt-BR" class="hn-btn hn-btn-sm cast press">português</button>
+      <!-- One button cycles light -> dark -> terminal. Like the language
+           toggle beside it, it names where a tap takes you: label and icon
+           show the next theme; aria-label states both. -->
       <button type="button" id="theme-toggle" class="hn-btn hn-btn-sm cast press">
-        <svg data-icon="light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" aria-hidden="true">
-          <circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4" />
+        <svg data-icon="dark" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+          <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
         </svg>
-        <svg data-icon="dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" aria-hidden="true">
-          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+        <svg data-icon="terminal" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+          <path d="M12 19h8" /><path d="m4 17 6-6-6-6" />
         </svg>
-        <svg data-icon="terminal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" aria-hidden="true">
-          <path d="M4 17l6-5-6-5M12 19h8" />
+        <svg data-icon="light" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" />
+          <path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" />
         </svg>
         <span id="theme-label">dark</span>
       </button>
@@ -150,61 +153,62 @@
 
     <main>
       <h1 class="hn-wordmark"><span class="ink-block tilt-cw">handles</span>.notx.blue</h1>
-      <p class="hn-lede">Public domains you can use as your Bluesky handle.</p>
-      <p class="hn-byline hn-meta">
-        Work in progress. Expect bugs · part of <a href="https://notx.blue">notx.blue</a> by
-        <a href="https://bsky.app/profile/joseli.to">@joseli.to</a>
-      </p>
 
-      <aside class="hn-callout cast">
-        <div class="hn-callout-spine" aria-hidden="true">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square">
-            <path d="M14 4h6v6M20 4l-9 9M10 6H4v14h14v-6" />
+      <aside class="hn-callout hn-callout-promo cast hn-callout-top">
+        <!-- lucide-static 0.542.0, puzzle.svg. -->
+        <span class="hn-callout-spine" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
           </svg>
-        </div>
+        </span>
         <div class="hn-callout-body">
-          <strong>Share from any website to Bluesky:</strong> install the
+          <span data-i18n="extPrefix">Share from any website to Bluesky: install the</span>
           <a href="https://share.notx.blue/" target="_blank" rel="noopener">Redirect Twitter Share to Bluesky</a>
-          extension. Available for Chrome and Firefox.
+          <span data-i18n="extRest">extension. Available for Chrome and Firefox.</span>
         </div>
       </aside>
 
       <section class="hn-panel cast" aria-labelledby="list-title">
-        <h2 class="hn-panel-head" id="list-title"><span>Domains</span><span id="total"></span></h2>
+        <h2 class="hn-panel-head" id="list-title"><span data-i18n="panelTitle">Domains</span><span id="total"></span></h2>
         <div class="hn-panel-body">
-          <p id="loading" class="hn-empty">Loading...</p>
+          <p class="hn-intro"><strong data-i18n="introStrong">Public domains</strong> <span data-i18n="introRest">you can use as your Bluesky handle.</span></p>
+          <p id="loading" class="hn-empty" data-i18n="loading">Loading...</p>
           <p id="error" class="hn-error" hidden></p>
           <div id="list-area" hidden>
             <div class="hn-controls">
-              <label class="hn-field cast-flat cast">
-                <input id="query" type="search" placeholder="Search domains, descriptions or maintainers" aria-label="Search" />
+              <label class="hn-field cast cast-flat">
+                <input id="query" type="search" data-i18n-placeholder="search" placeholder="Search domains, descriptions or maintainers" aria-label="Search" />
               </label>
               <div class="hn-filter" role="group" aria-label="Status">
-                <button type="button" class="cast press" data-status="Active" aria-pressed="true">Active<span class="hn-count"></span></button>
-                <button type="button" class="cast press" data-status="Deprecated" aria-pressed="false">Deprecated<span class="hn-count"></span></button>
-                <button type="button" class="cast press" data-status="All" aria-pressed="false">All<span class="hn-count"></span></button>
+                <button type="button" class="cast press" data-status="Active" aria-pressed="true"><span data-i18n="Active">Active</span><span class="hn-count"></span></button>
+                <button type="button" class="cast press" data-status="Deprecated" aria-pressed="false"><span data-i18n="Deprecated">Deprecated</span><span class="hn-count"></span></button>
+                <button type="button" class="cast press" data-status="All" aria-pressed="false"><span data-i18n="All">All</span><span class="hn-count"></span></button>
               </div>
             </div>
             <ul class="hn-list" id="list"></ul>
-            <p id="no-match" class="hn-empty" hidden>No domains match your search.</p>
-            <p class="hn-panel-foot hn-note">
-              Status is updated by a weekly automated check<span id="last-run"></span>.
-              A domain is marked deprecated after failing two checks in a row.
-            </p>
+            <p id="no-match" class="hn-empty" data-i18n="noMatch" hidden>No domains match your search.</p>
+            <p class="hn-panel-foot hn-note" id="status-note"></p>
           </div>
         </div>
       </section>
 
       <div class="hn-actions">
-        <a href="https://github.com/breakzplatform/bsky-public-handles" class="hn-btn hn-btn-primary cast press">Edit on GitHub</a>
+        <a href="https://github.com/breakzplatform/bsky-public-handles" class="hn-btn hn-btn-primary cast press" data-i18n="edit">Edit on GitHub</a>
       </div>
 
     </main>
 
     <footer class="hn-footer">
-      <p class="hn-note">Directly from Brazil by Joselito, with much love and care. This site does not use any cookies or collect any data. This site is not related to Bluesky.</p>
+      <p class="hn-meta">
+        <span data-i18n="tagline">Work in Progress. Expect bugs</span> ·
+        <a id="bug-link" href="https://q.joseli.to/forms/notx-blue-bugs" target="_blank" rel="noopener" data-i18n="foundBug">found one?</a> ·
+        <span data-i18n="partOf">part of</span> <a href="https://notx.blue">notx.blue</a> <span data-i18n="byAuthor">by</span>
+        <a href="https://bsky.app/profile/joseli.to">@joseli.to</a> ·
+        <a href="https://github.com/breakzplatform/bsky-public-handles" data-i18n="viewSource">View-source</a>
+      </p>
+      <p class="hn-note" data-i18n="fromBrazil">Directly from Brazil by Joselito, with much love and care. This site does not use any cookies or collect any data. This site is not related to Bluesky.</p>
       <div class="hn-support">
-        <span class="hn-label" style="color: var(--text-3)">Support this project:</span>
+        <span class="hn-micro" style="color: var(--text-3)" data-i18n="support">Support this project:</span>
         <a href="https://pix.joseli.to" target="_blank" rel="noopener" class="hn-chip hn-chip-pix cast press">Pix</a>
         <a href="https://buymeacoffee.com/joselito" target="_blank" rel="noopener" class="hn-chip hn-chip-coffee cast press">Buy Me a Coffee</a>
         <a href="https://github.com/sponsors/breakzplatform" target="_blank" rel="noopener" class="hn-chip hn-chip-sponsors cast press">GitHub Sponsors</a>
@@ -221,11 +225,81 @@
       : ["data/handles.json", "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.json"];
 
     const PRICING_TAG = /^\[(PAID|FREEMIUM)\]\s*/i;
-
     const THEMES = ["light", "dark", "terminal"];
-    const THEME_NAMES = { light: "light", dark: "dark", terminal: "terminal" };
+    const BUG_FORMS = { en: "https://q.joseli.to/forms/notx-blue-bugs", pt: "https://q.joseli.to/forms/notx-blue-bugs-pt" };
 
-    const state = { handles: [], query: "", status: "Active" };
+    // The page is written in English; Portuguese replaces the tagged strings.
+    // Descriptions come from handles.json and stay as submitted.
+    const STRINGS = {
+      en: {
+        themeNames: { light: "light", dark: "dark", terminal: "terminal" },
+        themeButton: "Theme: {current}, tap for {next}",
+        total: "{n} total",
+        by: "by",
+        checked: "checked {date}",
+        never: "never",
+        notChecked: "Not checked yet",
+        statusNote: "Status is updated by a weekly automated check{run}. A domain is marked deprecated after failing two checks in a row.",
+        lastRun: " (last run {date})",
+        fetchError: "Error fetching the list of handles: {message}",
+      },
+      pt: {
+        panelTitle: "Domínios",
+        introStrong: "Domínios públicos",
+        introRest: "que você pode usar como handle no Bluesky.",
+        loading: "Carregando...",
+        search: "Busque por domínio, descrição ou responsável",
+        Active: "Ativos",
+        Deprecated: "Obsoletos",
+        All: "Todos",
+        noMatch: "Nenhum domínio corresponde à busca.",
+        edit: "Editar no GitHub",
+        extPrefix: "Compartilhe de qualquer site para o Bluesky: instale a extensão",
+        extRest: "— disponível para Chrome e Firefox.",
+        tagline: "Em desenvolvimento. Bugs acontecem",
+        foundBug: "achou um?",
+        partOf: "parte do",
+        byAuthor: "por",
+        viewSource: "Ver código",
+        fromBrazil: "Direto do Brasil pelo Joselito, com muito carinho. Este site não usa cookies nem coleta dados. Este site não tem relação com o Bluesky.",
+        support: "Apoie este projeto:",
+        themeNames: { light: "claro", dark: "escuro", terminal: "terminal" },
+        themeButton: "Tema: {current}, toque para {next}",
+        total: "{n} no total",
+        by: "por",
+        checked: "verificado em {date}",
+        never: "nunca",
+        notChecked: "Ainda não verificado",
+        statusNote: "O status é atualizado por uma verificação automática semanal{run}. Um domínio vira obsoleto depois de falhar em duas verificações seguidas.",
+        lastRun: " (última em {date})",
+        fetchError: "Erro ao carregar a lista de handles: {message}",
+        statusLabels: { Active: "ativo", Deprecated: "obsoleto" },
+      },
+    };
+
+    const english = {};
+    for (const node of document.querySelectorAll("[data-i18n]")) english[node.dataset.i18n] = node.textContent;
+    for (const node of document.querySelectorAll("[data-i18n-placeholder]")) english[node.dataset.i18nPlaceholder] = node.placeholder;
+
+    const state = { handles: [], query: "", status: "Active", lang: detectLang(), error: null };
+
+    function stored(key) {
+      try { return localStorage.getItem(key); } catch { return null; }
+    }
+    function store(key, value) {
+      try { localStorage.setItem(key, value); } catch {}
+    }
+
+    function detectLang() {
+      const saved = stored("lang");
+      if (saved === "pt" || saved === "en") return saved;
+      return (navigator.language || "en").toLowerCase().startsWith("pt") ? "pt" : "en";
+    }
+
+    function t(key, values = {}) {
+      const text = STRINGS[state.lang][key] ?? STRINGS.en[key] ?? english[key];
+      return typeof text === "string" ? text.replace(/\{(\w+)\}/g, (_, name) => values[name] ?? "") : text;
+    }
 
     function element(tag, className, text) {
       const node = document.createElement(tag);
@@ -258,11 +332,13 @@
 
     function renderRow(handle) {
       const row = element("li", "hn-row");
+      const summary = handle.check ? handle.check.summary : t("notChecked");
       const head = element("div", "hn-row-head");
       head.append(externalLink(handle.get_handle_url, handle.domain, "hn-domain"));
 
-      const status = element("span", `hn-tag hn-tag-${handle.status.toLowerCase()}`, handle.status);
-      status.title = handle.check ? handle.check.summary : "Not checked yet";
+      const labels = STRINGS[state.lang].statusLabels;
+      const status = element("span", `hn-tag hn-tag-${handle.status.toLowerCase()}`, labels ? labels[handle.status] : handle.status);
+      status.title = summary;
       head.append(status);
 
       const pricing = handle.description.match(PRICING_TAG);
@@ -272,17 +348,16 @@
       row.append(element("p", "hn-desc", handle.description.replace(PRICING_TAG, "")));
 
       const meta = element("p", "hn-meta");
-      meta.style.margin = "0";
       if (handle.maintainer) {
-        const by = element("span", null, "by ");
+        const by = element("span", null, `${t("by")} `);
         by.append(externalLink(handle.maintainer.url, handle.maintainer.name));
         meta.append(by);
       }
       const country = element("span", null, countryCode(handle.country));
       country.title = handle.country;
       meta.append(country);
-      const checked = element("span", null, `checked ${handle.last_checked || "never"}`);
-      checked.title = handle.check ? handle.check.summary : "Not checked yet";
+      const checked = element("span", null, t("checked", { date: handle.last_checked || t("never") }));
+      checked.title = summary;
       meta.append(checked);
       row.append(meta);
       return row;
@@ -298,7 +373,7 @@
       });
     }
 
-    function render() {
+    function renderList() {
       const rows = filtered();
       document.getElementById("list").replaceChildren(...rows.map(renderRow));
       document.getElementById("no-match").hidden = rows.length > 0;
@@ -307,15 +382,21 @@
       }
     }
 
-    function renderCounts() {
+    function renderSummary() {
       const counts = { All: state.handles.length, Active: 0, Deprecated: 0 };
       for (const handle of state.handles) counts[handle.status]++;
       for (const button of document.querySelectorAll("[data-status]")) {
         button.querySelector(".hn-count").textContent = counts[button.dataset.status];
       }
-      document.getElementById("total").textContent = `${counts.All} total`;
+      document.getElementById("total").textContent = state.handles.length ? t("total", { n: counts.All }) : "";
       const lastRun = state.handles.map((handle) => handle.last_checked).filter(Boolean).sort().pop();
-      document.getElementById("last-run").textContent = lastRun ? ` (last run ${lastRun})` : "";
+      document.getElementById("status-note").textContent = t("statusNote", { run: lastRun ? t("lastRun", { date: lastRun }) : "" });
+    }
+
+    function render() {
+      renderSummary();
+      renderList();
+      if (state.error) document.getElementById("error").textContent = t("fetchError", { message: state.error });
     }
 
     async function load() {
@@ -330,14 +411,12 @@
         if (!Array.isArray(data.handles)) throw new Error("unexpected data format");
         state.handles = data.handles;
         document.getElementById("list-area").hidden = false;
-        renderCounts();
-        render();
       } catch (error) {
-        const message = document.getElementById("error");
-        message.textContent = `Error fetching the list of handles: ${error.message}`;
-        message.hidden = false;
+        state.error = error.message;
+        document.getElementById("error").hidden = false;
       } finally {
         document.getElementById("loading").hidden = true;
+        render();
       }
     }
 
@@ -350,28 +429,49 @@
       if (theme === "light") document.documentElement.removeAttribute("data-theme");
       else document.documentElement.setAttribute("data-theme", theme);
       const next = THEMES[(THEMES.indexOf(theme) + 1) % THEMES.length];
+      const names = t("themeNames");
       for (const icon of document.querySelectorAll("#theme-toggle [data-icon]")) icon.toggleAttribute("hidden", icon.dataset.icon !== next);
-      document.getElementById("theme-label").textContent = THEME_NAMES[next];
-      document.getElementById("theme-toggle").setAttribute("aria-label", `Theme: ${THEME_NAMES[theme]}, tap for ${THEME_NAMES[next]}`);
+      document.getElementById("theme-label").textContent = names[next];
+      document.getElementById("theme-toggle").setAttribute("aria-label", t("themeButton", { current: names[theme], next: names[next] }));
     }
 
+    function applyLang() {
+      for (const node of document.querySelectorAll("[data-i18n]")) node.textContent = t(node.dataset.i18n);
+      for (const node of document.querySelectorAll("[data-i18n-placeholder]")) {
+        node.placeholder = t(node.dataset.i18nPlaceholder);
+        node.setAttribute("aria-label", node.placeholder);
+      }
+      document.documentElement.lang = state.lang === "pt" ? "pt-BR" : "en";
+      document.getElementById("bug-link").href = BUG_FORMS[state.lang];
+      const toggle = document.getElementById("lang-toggle");
+      toggle.textContent = state.lang === "pt" ? "english" : "português";
+      toggle.lang = state.lang === "pt" ? "en" : "pt-BR";
+      applyTheme(currentTheme());
+      render();
+    }
+
+    document.getElementById("lang-toggle").addEventListener("click", () => {
+      state.lang = state.lang === "pt" ? "en" : "pt";
+      store("lang", state.lang);
+      applyLang();
+    });
     document.getElementById("theme-toggle").addEventListener("click", () => {
       const theme = THEMES[(THEMES.indexOf(currentTheme()) + 1) % THEMES.length];
-      try { localStorage.setItem("theme", theme); } catch {}
+      store("theme", theme);
       applyTheme(theme);
     });
     document.getElementById("query").addEventListener("input", (event) => {
       state.query = event.target.value;
-      render();
+      renderList();
     });
     for (const button of document.querySelectorAll("[data-status]")) {
       button.addEventListener("click", () => {
         state.status = button.dataset.status;
-        render();
+        renderList();
       });
     }
 
-    applyTheme(currentTheme());
+    applyLang();
     load();
   </script>
 </body>
