@@ -590,3 +590,7 @@ img{max-width:100%;height:auto}
   .cast::after,.neo::after{--dot-field:conic-gradient(from 270deg at 2px 2px,var(--shadow-color) 25%,transparent 0)}
   .screen{--screen-field:conic-gradient(from 270deg at 3px 3px,var(--dot-ink,var(--halftone-dot)) 25%,transparent 0)}
 }
+:root, [data-theme] {
+--project-ink:var(--ink-magenta);
+--project-ink-contrast:var(--on-magenta);
+}
