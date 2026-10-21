@@ -39,9 +39,10 @@ jobs:
       - name: Regenerate the README table
         run: npm run readme
 
-      # Opens a pull request on the first run and updates the same branch and
-      # pull request on later runs until it is merged.
-      - name: Open or update the pull request
+      # The pull request keeps a reviewable record of each run; it is merged
+      # right away so the site (built from main) always shows the latest check.
+      - name: Open the pull request
+        id: pr
         uses: peter-evans/create-pull-request@v7
         with:
           branch: automation/handle-check
@@ -53,3 +54,9 @@ jobs:
           title: "chore(data): weekly handle check"
           body-path: ${{ runner.temp }}/check-summary.md
           labels: automated
+
+      - name: Merge the pull request
+        if: steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge "${{ steps.pr.outputs.pull-request-number }}" --rebase --delete-branch
