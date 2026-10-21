@@ -14,7 +14,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -43,7 +43,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (bts.army.social, adm.army.social, funds.army.social, report.army.social, hobizinho1.army.social)",
         "dns": {
@@ -127,7 +127,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -208,7 +208,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -237,7 +237,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (beyoncebrasil.beyhive.social, obxstan00.beyhive.social, beymusiclover8.beyhive.social, renascido1981.beyhive.social, yonce44.beyhive.social)",
         "dns": {
@@ -326,7 +326,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.16.1",
+            "216.150.1.129",
             "216.150.16.129"
           ],
           "nameservers": [
@@ -361,7 +361,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -386,11 +386,11 @@
         "url": "https://bsky.app/profile/darn.fish"
       },
       "country": "🇺🇸",
-      "status": "Active",
+      "status": "Deprecated",
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "method": "sample_handle",
         "summary": "none of the 1 handle(s) found under the domain resolve (lafilledhiver21.bsky.cool)",
         "dns": {
@@ -515,11 +515,11 @@
         "url": "https://bsky.app/profile/darn.fish"
       },
       "country": "🇺🇸",
-      "status": "Active",
+      "status": "Deprecated",
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (flyman347.bsky.lgbt, vr5.bsky.lgbt)",
         "dns": {
@@ -633,8 +633,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "76.76.21.61",
-            "76.76.21.93"
+            "66.33.60.129",
+            "66.33.60.130"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -677,7 +677,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -706,7 +706,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -735,7 +735,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns5.afternic.com belongs to a parking or domain marketplace service",
         "dns": {
@@ -782,8 +782,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "64.29.17.1",
-            "64.29.17.65"
+            "216.198.79.65",
+            "64.29.17.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -824,7 +824,7 @@
           "resolves": true,
           "addresses": [
             "216.198.79.65",
-            "64.29.17.65"
+            "64.29.17.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -867,7 +867,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 1 handle(s) found under the domain resolve (marcomini05.cronicamente.online)",
         "dns": {
@@ -919,7 +919,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1003,7 +1003,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.194",
+            "76.76.21.22",
             "76.76.21.241"
           ],
           "nameservers": [
@@ -1105,8 +1105,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.35",
-            "76.76.21.142"
+            "66.33.60.129",
+            "66.33.60.130"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1149,7 +1149,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (sudo.fursona.club, vanja1738.fursona.club)",
         "dns": {
@@ -1204,7 +1204,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1239,8 +1239,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.1",
-            "216.150.16.193"
+            "216.150.1.129",
+            "216.150.1.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1283,7 +1283,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1312,7 +1312,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (incelizade.is-extremely.gay, bkdk.is-extremely.gay)",
         "dns": {
@@ -1370,8 +1370,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.16.1",
-            "216.150.16.65"
+            "216.150.1.1",
+            "216.150.16.193"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1414,7 +1414,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (b555.lesbian.cat, maoraa6.lesbian.cat, bloomifebruary6.lesbian.cat, ltfaith369.lesbian.cat, zb1.lesbian.cat)",
         "dns": {
@@ -1545,7 +1545,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1617,7 +1617,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns1.atom.com belongs to a parking or domain marketplace service",
         "dns": {
@@ -1663,8 +1663,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "76.76.21.164",
-            "76.76.21.98"
+            "66.33.60.130",
+            "76.76.21.61"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1704,7 +1704,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1914,7 +1914,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1943,7 +1943,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns1.lander.d.parity.domains belongs to a parking or domain marketplace service",
         "dns": {
@@ -1990,8 +1990,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.130",
-            "76.76.21.98"
+            "66.33.60.35",
+            "76.76.21.123"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2068,11 +2068,11 @@
         "url": "https://bsky.app/profile/darn.fish"
       },
       "country": "🇺🇸",
-      "status": "Active",
+      "status": "Deprecated",
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "method": "sample_handle",
         "summary": "none of the 4 handle(s) found under the domain resolve (9i520.tired.io, 247.tired.io, 7.tired.io, 705340.tired.io)",
         "dns": {
@@ -2141,17 +2141,17 @@
         "url": "https://bsky.app/profile/apogrifa.tripazeada.club"
       },
       "country": "🇧🇷",
-      "status": "Active",
+      "status": "Deprecated",
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (apogrifa.tripazeada.club, viipriv.tripazeada.club, mariaa034.tripazeada.club, vipaiz16.tripazeada.club, fakeroy17.tripazeada.club)",
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
+            "216.198.79.1",
             "64.29.17.1"
           ],
           "nameservers": [
@@ -2227,7 +2227,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2252,11 +2252,11 @@
         "url": "https://bsky.app/profile/darn.fish"
       },
       "country": "🇺🇸",
-      "status": "Active",
+      "status": "Deprecated",
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 1,
+        "consecutive_failures": 2,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (mrboy026.vibes.cool, ren0620.vibes.cool)",
         "dns": {
@@ -2313,7 +2313,7 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2342,14 +2342,14 @@
       "last_checked": "2026-10-21",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (gustabunny1.woke.cat, yuutaa1026.woke.cat, twok1.woke.cat, pepiux1.woke.cat, 186.woke.cat)",
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.193",
-            "216.150.16.1"
+            "216.150.1.1",
+            "216.150.16.129"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
