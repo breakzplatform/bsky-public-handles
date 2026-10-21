@@ -1,0 +1,4 @@
+# The site is static: site/ is published as is. The design system CSS is built
+# ahead of time (npm run build:css) and committed, so no build command runs.
+[build]
+  publish = "site"
