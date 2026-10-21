@@ -229,10 +229,11 @@
 
   <script>
     // Local previews (a static server at the repository root) read the
-    // working copy of the data instead of the published one.
-    const DATA_URL = ["localhost", "127.0.0.1"].includes(location.hostname)
-      ? "/data/handles.json"
-      : "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.json";
+    // working copy of the data. Elsewhere a copy next to the page wins when
+    // one was deployed with it (previews); otherwise the published file.
+    const DATA_URLS = ["localhost", "127.0.0.1"].includes(location.hostname)
+      ? ["/data/handles.json"]
+      : ["data/handles.json", "https://raw.githubusercontent.com/breakzplatform/bsky-public-handles/main/data/handles.json"];
 
     const PRICING_TAG = /^\[(PAID|FREEMIUM)\]\s*/i;
 
@@ -334,7 +335,11 @@
 
     async function load() {
       try {
-        const response = await fetch(DATA_URL);
+        let response;
+        for (const url of DATA_URLS) {
+          response = await fetch(url);
+          if (response.ok) break;
+        }
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         if (!Array.isArray(data.handles)) throw new Error("unexpected data format");
