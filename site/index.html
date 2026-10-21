@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Public Handles for Bluesky</title>
-  <meta property="og:title" content="Public Handles for Bluesky" />
-  <meta name="twitter:title" content="Public Handles for Bluesky" />
-  <meta name="description" content="List of public handles to use in Bluesky" />
-  <meta property="og:description" content="List of public handles to use in Bluesky" />
-  <meta name="twitter:description" content="List of public handles to use in Bluesky" />
+  <title>Public Handles for Bluesky or Atmosphere</title>
+  <meta property="og:title" content="Public Handles for Bluesky or Atmosphere" />
+  <meta name="twitter:title" content="Public Handles for Bluesky or Atmosphere" />
+  <meta name="description" content="List of public handles to use in Bluesky or any Atmosphere app" />
+  <meta property="og:description" content="List of public handles to use in Bluesky or any Atmosphere app" />
+  <meta name="twitter:description" content="List of public handles to use in Bluesky or any Atmosphere app" />
   <meta property="og:image" content="https://handles.notx.blue/share.png" />
   <meta name="twitter:image" content="https://handles.notx.blue/share.png" />
   <link rel="stylesheet" href="assets/ds.css" />
@@ -100,7 +100,6 @@
     .hn-panel-foot { margin: var(--space-7) 0 0; text-align: center; }
     .hn-error { color: var(--status-error); text-align: center; margin: 0; }
 
-    .hn-actions { display: flex; justify-content: center; margin-bottom: var(--space-10); }
 
     /* The extension notice closes the page, as down.blue's promo callout does. */
     .hn-callout { display: grid; grid-template-columns: max-content 1fr; margin-bottom: var(--space-9); }
@@ -131,6 +130,7 @@
 <body>
   <div class="hn-page">
     <div class="hn-topbar">
+      <a href="https://github.com/breakzplatform/bsky-public-handles" class="hn-btn hn-btn-sm cast press" data-i18n="edit">Edit on GitHub</a>
       <button type="button" id="lang-toggle" lang="pt-BR" class="hn-btn hn-btn-sm cast press">português</button>
       <!-- One button cycles light -> dark -> terminal. Like the language
            toggle beside it, it names where a tap takes you: label and icon
@@ -157,7 +157,7 @@
       <section class="hn-panel cast" aria-labelledby="list-title">
         <h2 class="hn-panel-head" id="list-title"><span data-i18n="panelTitle">Domains</span><span id="total"></span></h2>
         <div class="hn-panel-body">
-          <p class="hn-intro"><strong data-i18n="introStrong">Public domains</strong> <span data-i18n="introRest">you can use as your Bluesky handle.</span></p>
+          <p class="hn-intro"><strong data-i18n="introStrong">Public domains</strong> <span data-i18n="introRest">you can use as your Bluesky or Atmosphere handle.</span></p>
           <p id="loading" class="hn-empty" data-i18n="loading">Loading...</p>
           <p id="error" class="hn-error" hidden></p>
           <div id="list-area" hidden>
@@ -177,10 +177,6 @@
           </div>
         </div>
       </section>
-
-      <div class="hn-actions">
-        <a href="https://github.com/breakzplatform/bsky-public-handles" class="hn-btn hn-btn-primary cast press" data-i18n="edit">Edit on GitHub</a>
-      </div>
 
       <aside class="hn-callout hn-callout-promo cast">
         <!-- lucide-static 0.542.0, puzzle.svg. -->
@@ -245,7 +241,7 @@
       pt: {
         panelTitle: "Domínios",
         introStrong: "Domínios públicos",
-        introRest: "que você pode usar como handle no Bluesky.",
+        introRest: "que você pode usar como handle no Bluesky ou na Atmosphere.",
         loading: "Carregando...",
         search: "Busque por domínio, descrição ou responsável",
         Active: "Ativos",
