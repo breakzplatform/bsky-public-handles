@@ -10,7 +10,8 @@
     "check": "node scripts/check-handles.mjs",
     "readme": "node scripts/build-readme.mjs",
     "readme:check": "node scripts/build-readme.mjs --check",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "build:css": "node scripts/build-css.mjs"
   },
   "devDependencies": {
     "ajv": "^8.20.0",
