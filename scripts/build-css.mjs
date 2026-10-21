@@ -14,12 +14,13 @@ const css = tokens.map((name) => readFileSync(`scripts/ds/tokens/${name}.css`, "
 
 // The project's ink, the one place it is set: the page and the share image
 // follow it (favicon.svg repeats the light value). Blue belongs to notx.blue
-// itself, so this site takes magenta. It sits on `:root, [data-theme]` after
-// the tokens, so it beats each theme block's default and resolves to that
-// theme's magenta.
+// itself, so this site takes orange, with the system's black --on-orange
+// (white fails AA on it in every theme). It sits on `:root, [data-theme]`
+// after the tokens, so it beats each theme block's default and resolves to
+// that theme's orange.
 const projectInk = `:root, [data-theme] {
---project-ink:var(--ink-magenta);
---project-ink-contrast:var(--on-magenta);
+--project-ink:var(--ink-orange);
+--project-ink-contrast:var(--on-orange);
 }`;
 
 mkdirSync("site/assets", { recursive: true });

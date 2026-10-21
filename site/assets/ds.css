@@ -591,6 +591,6 @@ img{max-width:100%;height:auto}
   .screen{--screen-field:conic-gradient(from 270deg at 3px 3px,var(--dot-ink,var(--halftone-dot)) 25%,transparent 0)}
 }
 :root, [data-theme] {
---project-ink:var(--ink-magenta);
---project-ink-contrast:var(--on-magenta);
+--project-ink:var(--ink-orange);
+--project-ink-contrast:var(--on-orange);
 }
