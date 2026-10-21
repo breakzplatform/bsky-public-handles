@@ -2,6 +2,58 @@
   "$schema": "./handles.schema.json",
   "handles": [
     {
+      "domain": "academics.blue",
+      "description": "For academics",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "menelay0.academics.blue resolves to did:plc:wcortycizyfcdt4tmavfyebn via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.39.103",
+            "172.67.144.52",
+            "2606:4700:3031::6815:2767",
+            "2606:4700:3032::ac43:9034"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://academics.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "menelay0.academics.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:wcortycizyfcdt4tmavfyebn",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "menelay0.academics.blue",
+        "sample_did": "did:plc:wcortycizyfcdt4tmavfyebn",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "antsocial.club",
       "description": "For those who don't like to socialize",
       "get_handle_url": "https://antsocial.club/",
@@ -141,6 +193,53 @@
         "sample_did": null,
         "sample_source": null,
         "samples_tried": []
+      }
+    },
+    {
+      "domain": "atiny.social",
+      "description": "For ATEEZ fans",
+      "get_handle_url": "https://atiny.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "ateez.atiny.social resolves to did:plc:spbxrtbmt3d5ugdzkbmyzsj7 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "64.29.17.1",
+            "64.29.17.65"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://atiny.social/",
+          "http_status": 200,
+          "final_url": "https://atiny.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "ateez.atiny.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:spbxrtbmt3d5ugdzkbmyzsj7",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "ateez.atiny.social",
+        "sample_did": "did:plc:spbxrtbmt3d5ugdzkbmyzsj7",
+        "sample_source": "bluesky-search"
       }
     },
     {
@@ -615,6 +714,56 @@
       }
     },
     {
+      "domain": "bsky.to",
+      "description": "Short handles, with a nod to Toronto and Tonga",
+      "get_handle_url": "https://bsky.to",
+      "maintainer": {
+        "name": "@young.me",
+        "url": "https://bsky.app/profile/young.me"
+      },
+      "country": "🇨🇦",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "suosaku.bsky.to resolves to did:plc:z25wpcfajjayyaisl2zva2ib via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "152.233.22.102",
+            "2400:52e0:1a02::876:1"
+          ],
+          "nameservers": [
+            "coco.bunny.net",
+            "kiki.bunny.net"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://bsky.to/",
+          "http_status": 200,
+          "final_url": "https://bsky.to/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "suosaku.bsky.to",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:z25wpcfajjayyaisl2zva2ib",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "suosaku.bsky.to",
+        "sample_did": "did:plc:z25wpcfajjayyaisl2zva2ib",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "ceuazul.online",
       "description": "General purpose community handle",
       "get_handle_url": "https://ceuazul.online",
@@ -855,6 +1004,107 @@
       }
     },
     {
+      "domain": "coys.social",
+      "description": "For Tottenham Hotspur fans",
+      "get_handle_url": "https://coys.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "dermot41.coys.social resolves to did:plc:rvnltcrdnqu5svbwolmlhbq4 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.49.127",
+            "172.67.163.2",
+            "2606:4700:3031::ac43:a302",
+            "2606:4700:3035::6815:317f"
+          ],
+          "nameservers": [
+            "theo.ns.cloudflare.com",
+            "vera.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://coys.social/",
+          "http_status": 200,
+          "final_url": "https://coys.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "dermot41.coys.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:rvnltcrdnqu5svbwolmlhbq4",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "dermot41.coys.social",
+        "sample_did": "did:plc:rvnltcrdnqu5svbwolmlhbq4",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "creator.blue",
+      "description": "For content creators",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "abulu8.creator.blue resolves to did:plc:sk5hlkgp5xuc5g7sy7k52q3d via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.21.16",
+            "172.67.195.247",
+            "2606:4700:3032::ac43:c3f7",
+            "2606:4700:3035::6815:1510"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://creator.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "abulu8.creator.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:sk5hlkgp5xuc5g7sy7k52q3d",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "abulu8.creator.blue",
+        "sample_did": "did:plc:sk5hlkgp5xuc5g7sy7k52q3d",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "cronicamente.online",
       "description": "General purpose community handle",
       "get_handle_url": "https://cronicamente.online",
@@ -907,6 +1157,105 @@
       }
     },
     {
+      "domain": "dftba.social",
+      "description": "For Nerdfighters and Vlogbrothers fans",
+      "get_handle_url": "https://dftba.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "violet.dftba.social resolves to did:plc:6vkka3fhn6evrimtwx3udux5 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.198.79.65",
+            "64.29.17.65"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://dftba.social/",
+          "http_status": 200,
+          "final_url": "https://dftba.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "violet.dftba.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:6vkka3fhn6evrimtwx3udux5",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "violet.dftba.social",
+        "sample_did": "did:plc:6vkka3fhn6evrimtwx3udux5",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "edm.blue",
+      "description": "For the electronic dance music community",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "nick.edm.blue resolves to did:plc:rvesobrbwc6svkpy5c6jevez via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.83.213",
+            "172.67.181.246",
+            "2606:4700:3030::6815:53d5",
+            "2606:4700:3035::ac43:b5f6"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://edm.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "nick.edm.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:rvesobrbwc6svkpy5c6jevez",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "nick.edm.blue",
+        "sample_did": "did:plc:rvesobrbwc6svkpy5c6jevez",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "emos.social",
       "description": "For the emo community in general",
       "get_handle_url": "https://emos.social/",
@@ -933,6 +1282,53 @@
         "sample_did": null,
         "sample_source": null,
         "samples_tried": []
+      }
+    },
+    {
+      "domain": "etheirys.social",
+      "description": "For the Final Fantasy XIV community",
+      "get_handle_url": "https://etheirys.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "straycattexiv.etheirys.social resolves to did:plc:udox2txfv4diwbh6es3mc2j5 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://etheirys.social/",
+          "http_status": 200,
+          "final_url": "https://etheirys.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "straycattexiv.etheirys.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:udox2txfv4diwbh6es3mc2j5",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "straycattexiv.etheirys.social",
+        "sample_did": "did:plc:udox2txfv4diwbh6es3mc2j5",
+        "sample_source": "bluesky-search"
       }
     },
     {
@@ -981,6 +1377,58 @@
         ],
         "sample_handle": "chael1.excuseme.wtf",
         "sample_did": "did:plc:vqmu3ljuzrcbgcdsmloptcd2",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "fairy.blue",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "alexxxandria23.fairy.blue resolves to did:plc:gw3x4oplzhpwg54kc7krid56 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.18.246",
+            "172.67.183.245",
+            "2606:4700:3034::6815:12f6",
+            "2606:4700:3037::ac43:b7f5"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://fairy.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "alexxxandria23.fairy.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:gw3x4oplzhpwg54kc7krid56",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "alexxxandria23.fairy.blue",
+        "sample_did": "did:plc:gw3x4oplzhpwg54kc7krid56",
         "sample_source": "bluesky-search"
       }
     },
@@ -1192,6 +1640,58 @@
       }
     },
     {
+      "domain": "gamer.blue",
+      "description": "For gamers",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "andrey13.gamer.blue resolves to did:plc:tmrzbwlnqnimvuwsmamkt7l3 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.15.179",
+            "172.67.163.153",
+            "2606:4700:3032::ac43:a399",
+            "2606:4700:3034::6815:fb3"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://gamer.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "andrey13.gamer.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:tmrzbwlnqnimvuwsmamkt7l3",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "andrey13.gamer.blue",
+        "sample_did": "did:plc:tmrzbwlnqnimvuwsmamkt7l3",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "gorp.dog",
       "description": "[FREEMIUM] General purpose community handle",
       "get_handle_url": "https://skyname.io",
@@ -1300,6 +1800,61 @@
       }
     },
     {
+      "domain": "is-a.dev",
+      "description": "Free subdomains for developers, claimed through a GitHub pull request",
+      "get_handle_url": "https://docs.is-a.dev/guides/bsky-handle/",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "recettes.pinage404.is-a.dev resolves to did:plc:zpuzenqhrblo5mnnipinbxeh via dns+https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153",
+            "2606:50c0:8000::153",
+            "2606:50c0:8001::153",
+            "2606:50c0:8002::153",
+            "2606:50c0:8003::153"
+          ],
+          "nameservers": [
+            "ns1.is-a.dev",
+            "ns2.is-a.dev",
+            "ns3.is-a.dev",
+            "ns4.is-a.dev"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://is-a.dev/",
+          "http_status": 200,
+          "final_url": "https://is-a.dev/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "recettes.pinage404.is-a.dev",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:zpuzenqhrblo5mnnipinbxeh",
+            "via": "dns+https",
+            "error": null
+          }
+        ],
+        "sample_handle": "recettes.pinage404.is-a.dev",
+        "sample_did": "did:plc:zpuzenqhrblo5mnnipinbxeh",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "is-extremely.gay",
       "description": "General purpose community handle",
       "get_handle_url": "https://handles.domi.zip",
@@ -1398,6 +1953,53 @@
         ],
         "sample_handle": "62.ispost.ing",
         "sample_did": "did:plc:quakatpjyqa6gwljipuaaczu",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "kawaii.social",
+      "description": "For lovers of all things kawaii",
+      "get_handle_url": "https://kawaii.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "eliyah24.kawaii.social resolves to did:plc:kyojickn2yqaiqgwyi4ywkpz via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.150.1.1",
+            "216.150.16.129"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://kawaii.social/",
+          "http_status": 200,
+          "final_url": "https://kawaii.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "eliyah24.kawaii.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:kyojickn2yqaiqgwyi4ywkpz",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "eliyah24.kawaii.social",
+        "sample_did": "did:plc:kyojickn2yqaiqgwyi4ywkpz",
         "sample_source": "bluesky-search"
       }
     },
@@ -1605,6 +2207,54 @@
       }
     },
     {
+      "domain": "omg.lol",
+      "description": "[PAID] Comes with an omg.lol address",
+      "get_handle_url": "https://home.omg.lol",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "prami.omg.lol resolves to did:plc:z3saspvda3s3qdineragf7lz via dns (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "2a01:4ff:1f2:58a2::1",
+            "5.78.24.5"
+          ],
+          "nameservers": [
+            "ns1.dns.kitchen",
+            "ns2.dns.kitchen",
+            "ns3.dns.kitchen"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://omg.lol/",
+          "http_status": 200,
+          "final_url": "https://home.omg.lol/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "prami.omg.lol",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:z3saspvda3s3qdineragf7lz",
+            "via": "dns",
+            "error": null
+          }
+        ],
+        "sample_handle": "prami.omg.lol",
+        "sample_did": "did:plc:z3saspvda3s3qdineragf7lz",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "paw.rest",
       "description": "General purpose community handle",
       "get_handle_url": "https://bsky.shy.cat",
@@ -1692,6 +2342,210 @@
         "sample_handle": "sola02.pessoas.dev",
         "sample_did": "did:plc:oxyc4h7yx7seehvsrnxxewms",
         "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "pharmsky.app",
+      "description": "For pharmacists and the #PharmSky community",
+      "get_handle_url": "https://pharmsky.app",
+      "maintainer": {
+        "name": "@me.pharmsky.app",
+        "url": "https://bsky.app/profile/me.pharmsky.app"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "me.pharmsky.app resolves to did:plc:kdilsz4w5ihiuntitetr2dlg via https (found via maintainer)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.198.79.65",
+            "64.29.17.1"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://pharmsky.app/",
+          "http_status": 200,
+          "final_url": "https://pharmsky.app/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "me.pharmsky.app",
+            "source": "maintainer",
+            "ok": true,
+            "did": "did:plc:kdilsz4w5ihiuntitetr2dlg",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "me.pharmsky.app",
+        "sample_did": "did:plc:kdilsz4w5ihiuntitetr2dlg",
+        "sample_source": "maintainer"
+      }
+    },
+    {
+      "domain": "programmer.blue",
+      "description": "For programmers",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "koiralapankaj7.programmer.blue resolves to did:plc:os7ajbwabquxc2qbzrctmglt via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.39.165",
+            "172.67.146.196",
+            "2606:4700:3031::6815:27a5",
+            "2606:4700:3036::ac43:92c4"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://programmer.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "koiralapankaj7.programmer.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:os7ajbwabquxc2qbzrctmglt",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "koiralapankaj7.programmer.blue",
+        "sample_did": "did:plc:os7ajbwabquxc2qbzrctmglt",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "react-native.engineer",
+      "description": "For React Native developers",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "nofxxx.react-native.engineer resolves to did:plc:ed5g3kdfrc5ohxfhwiusukqh via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.89.236",
+            "172.67.148.238",
+            "2606:4700:3032::ac43:94ee",
+            "2606:4700:3035::6815:59ec"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://react-native.engineer/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "nofxxx.react-native.engineer",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:ed5g3kdfrc5ohxfhwiusukqh",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "nofxxx.react-native.engineer",
+        "sample_did": "did:plc:ed5g3kdfrc5ohxfhwiusukqh",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "satan.social",
+      "description": "Satan-themed community handle",
+      "get_handle_url": "https://satan.social",
+      "maintainer": {
+        "name": "@ahem.satan.social",
+        "url": "https://bsky.app/profile/ahem.satan.social"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "ahem.satan.social resolves to did:plc:xilz3qdn5eirt2cceq3v72m4 via https (found via maintainer)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.198.79.65",
+            "64.29.17.1"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://satan.social/",
+          "http_status": 200,
+          "final_url": "https://satan.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "ahem.satan.social",
+            "source": "maintainer",
+            "ok": true,
+            "did": "did:plc:xilz3qdn5eirt2cceq3v72m4",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "ahem.satan.social",
+        "sample_did": "did:plc:xilz3qdn5eirt2cceq3v72m4",
+        "sample_source": "maintainer"
       }
     },
     {
@@ -1972,6 +2826,110 @@
       }
     },
     {
+      "domain": "sparkle.blue",
+      "description": "General purpose community handle",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "zodanirella15.sparkle.blue resolves to did:plc:ishwqisq3ya7hzmpz3fd7f4l via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.7.95",
+            "172.67.130.21",
+            "2606:4700:3031::ac43:8215",
+            "2606:4700:3032::6815:75f"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://sparkle.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "zodanirella15.sparkle.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:ishwqisq3ya7hzmpz3fd7f4l",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "zodanirella15.sparkle.blue",
+        "sample_did": "did:plc:ishwqisq3ya7hzmpz3fd7f4l",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
+      "domain": "streamer.blue",
+      "description": "For streamers",
+      "get_handle_url": "https://vanity.blue",
+      "maintainer": {
+        "name": "@vanity.blue",
+        "url": "https://bsky.app/profile/vanity.blue"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "tirandode3.streamer.blue resolves to did:plc:x7dwfdhgrzamdfjgcchdht6z via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.34.15",
+            "172.67.153.43",
+            "2606:4700:3031::ac43:992b",
+            "2606:4700:3035::6815:220f"
+          ],
+          "nameservers": [
+            "cris.ns.cloudflare.com",
+            "macy.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://streamer.blue/",
+          "http_status": 200,
+          "final_url": "https://vanity.blue/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "tirandode3.streamer.blue",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:x7dwfdhgrzamdfjgcchdht6z",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "tirandode3.streamer.blue",
+        "sample_did": "did:plc:x7dwfdhgrzamdfjgcchdht6z",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "swifties.social",
       "description": "For Taylor Swift fans",
       "get_handle_url": "https://swifties.social/",
@@ -2022,6 +2980,55 @@
       }
     },
     {
+      "domain": "teamlh.social",
+      "description": "For Lewis Hamilton fans",
+      "get_handle_url": "https://teamlh.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "jay.teamlh.social resolves to did:plc:gkc3ufogy2trdfz3dt6o3n6p via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.92.160",
+            "172.67.195.109",
+            "2606:4700:3032::ac43:c36d",
+            "2606:4700:3037::6815:5ca0"
+          ],
+          "nameservers": [
+            "theo.ns.cloudflare.com",
+            "vera.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://teamlh.social/",
+          "http_status": 200,
+          "final_url": "https://teamlh.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "jay.teamlh.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:gkc3ufogy2trdfz3dt6o3n6p",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "jay.teamlh.social",
+        "sample_did": "did:plc:gkc3ufogy2trdfz3dt6o3n6p",
+        "sample_source": "bluesky-search"
+      }
+    },
+    {
       "domain": "the-gay.cat",
       "description": "General purpose community handle",
       "get_handle_url": "https://handles.domi.zip",
@@ -2057,6 +3064,55 @@
         "sample_handle": null,
         "sample_did": null,
         "sample_source": null
+      }
+    },
+    {
+      "domain": "tifosi.social",
+      "description": "For Ferrari fans",
+      "get_handle_url": "https://tifosi.social",
+      "maintainer": null,
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "kelly16.tifosi.social resolves to did:plc:nbhnxsczs43wvy4nmn4g3mk2 via https (found via bluesky-search)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "104.21.20.179",
+            "172.67.194.9",
+            "2606:4700:3033::6815:14b3",
+            "2606:4700:3033::ac43:c209"
+          ],
+          "nameservers": [
+            "theo.ns.cloudflare.com",
+            "vera.ns.cloudflare.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://tifosi.social/",
+          "http_status": 200,
+          "final_url": "https://tifosi.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "kelly16.tifosi.social",
+            "source": "bluesky-search",
+            "ok": true,
+            "did": "did:plc:nbhnxsczs43wvy4nmn4g3mk2",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "kelly16.tifosi.social",
+        "sample_did": "did:plc:nbhnxsczs43wvy4nmn4g3mk2",
+        "sample_source": "bluesky-search"
       }
     },
     {
@@ -2327,6 +3383,56 @@
         "sample_did": null,
         "sample_source": null,
         "samples_tried": []
+      }
+    },
+    {
+      "domain": "vtubers.social",
+      "description": "For VTubers and their fans",
+      "get_handle_url": "https://vtubers.social",
+      "maintainer": {
+        "name": "@liger.vtubers.social",
+        "url": "https://bsky.app/profile/liger.vtubers.social"
+      },
+      "country": "🌐",
+      "status": "Active",
+      "last_checked": "2026-10-21",
+      "check": {
+        "result": "pass",
+        "consecutive_failures": 0,
+        "method": "sample_handle",
+        "summary": "liger.vtubers.social resolves to did:plc:c6sulb24hiwth6nxdljsekao via https (found via maintainer)",
+        "dns": {
+          "resolves": true,
+          "addresses": [
+            "216.150.1.1",
+            "216.150.16.193"
+          ],
+          "nameservers": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "wildcard": true
+        },
+        "website": {
+          "url": "https://vtubers.social/",
+          "http_status": 200,
+          "final_url": "https://vtubers.social/",
+          "error": null
+        },
+        "parked": null,
+        "samples_tried": [
+          {
+            "handle": "liger.vtubers.social",
+            "source": "maintainer",
+            "ok": true,
+            "did": "did:plc:c6sulb24hiwth6nxdljsekao",
+            "via": "https",
+            "error": null
+          }
+        ],
+        "sample_handle": "liger.vtubers.social",
+        "sample_did": "did:plc:c6sulb24hiwth6nxdljsekao",
+        "sample_source": "maintainer"
       }
     },
     {
