@@ -11,7 +11,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -63,10 +63,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -92,10 +92,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (bts.army.social, adm.army.social, funds.army.social, report.army.social, hobizinho1.army.social)",
         "dns": {
@@ -176,10 +176,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -202,7 +202,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -252,7 +252,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -304,10 +304,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -333,10 +333,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (beyoncebrasil.beyhive.social, obxstan00.beyhive.social, beymusiclover8.beyhive.social, renascido1981.beyhive.social, yonce44.beyhive.social)",
         "dns": {
@@ -416,7 +416,7 @@
       },
       "country": "🇫🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -425,8 +425,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.129",
-            "216.150.16.129"
+            "64.29.17.2",
+            "64.29.17.66"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -457,10 +457,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -486,10 +486,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 1 handle(s) found under the domain resolve (lafilledhiver21.bsky.cool)",
         "dns": {
@@ -535,7 +535,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -575,7 +575,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -615,10 +615,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (flyman347.bsky.lgbt, vr5.bsky.lgbt)",
         "dns": {
@@ -672,7 +672,7 @@
       },
       "country": "🇲🇰",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -723,7 +723,7 @@
       },
       "country": "🇨🇦",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -732,8 +732,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "152.233.22.102",
-            "2400:52e0:1a02::876:1"
+            "2001:550:2:dc::5e:2",
+            "38.142.94.218"
           ],
           "nameservers": [
             "coco.bunny.net",
@@ -773,7 +773,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -782,8 +782,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.129",
-            "66.33.60.130"
+            "66.33.60.34",
+            "76.76.21.164"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -823,10 +823,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -852,10 +852,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -881,10 +881,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns5.afternic.com belongs to a parking or domain marketplace service",
         "dns": {
@@ -922,7 +922,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -931,7 +931,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
+            "216.198.79.1",
             "64.29.17.1"
           ],
           "nameservers": [
@@ -963,7 +963,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -972,8 +972,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
-            "64.29.17.1"
+            "64.29.17.1",
+            "64.29.17.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1010,7 +1010,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1062,7 +1062,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1114,10 +1114,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 1 handle(s) found under the domain resolve (marcomini05.cronicamente.online)",
         "dns": {
@@ -1163,17 +1163,17 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
         "method": "sample_handle",
-        "summary": "violet.dftba.social resolves to did:plc:6vkka3fhn6evrimtwx3udux5 via https (found via bluesky-search)",
+        "summary": "cdemi12.dftba.social resolves to did:plc:hjniii77cb2mj3bfabsg45n2 via https (found via bluesky-search)",
         "dns": {
           "resolves": true,
           "addresses": [
             "216.198.79.65",
-            "64.29.17.65"
+            "64.29.17.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1190,16 +1190,16 @@
         "parked": null,
         "samples_tried": [
           {
-            "handle": "violet.dftba.social",
+            "handle": "cdemi12.dftba.social",
             "source": "bluesky-search",
             "ok": true,
-            "did": "did:plc:6vkka3fhn6evrimtwx3udux5",
+            "did": "did:plc:hjniii77cb2mj3bfabsg45n2",
             "via": "https",
             "error": null
           }
         ],
-        "sample_handle": "violet.dftba.social",
-        "sample_did": "did:plc:6vkka3fhn6evrimtwx3udux5",
+        "sample_handle": "cdemi12.dftba.social",
+        "sample_did": "did:plc:hjniii77cb2mj3bfabsg45n2",
         "sample_source": "bluesky-search"
       }
     },
@@ -1213,7 +1213,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1265,10 +1265,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1291,7 +1291,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1300,8 +1300,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.1",
-            "64.29.17.1"
+            "216.198.79.65",
+            "64.29.17.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1341,7 +1341,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1390,7 +1390,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1442,7 +1442,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1451,8 +1451,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "76.76.21.22",
-            "76.76.21.241"
+            "66.33.60.194",
+            "76.76.21.93"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1492,7 +1492,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1544,7 +1544,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1553,8 +1553,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.129",
-            "66.33.60.130"
+            "76.76.21.22",
+            "76.76.21.241"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1594,12 +1594,12 @@
       },
       "country": "🇸🇪",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
-        "summary": "none of the 2 handle(s) found under the domain resolve (sudo.fursona.club, vanja1738.fursona.club)",
+        "summary": "none of the 1 handle(s) found under the domain resolve (sudo.fursona.club)",
         "dns": {
           "resolves": false,
           "addresses": [],
@@ -1624,14 +1624,6 @@
             "did": null,
             "via": null,
             "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
-          },
-          {
-            "handle": "vanja1738.fursona.club",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known ENOTFOUND)"
           }
         ],
         "sample_handle": null,
@@ -1649,7 +1641,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1701,10 +1693,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1730,7 +1722,7 @@
       },
       "country": "🇬🇧",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1739,8 +1731,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.129",
-            "216.150.1.65"
+            "216.150.1.1",
+            "216.150.1.193"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -1780,10 +1772,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -1806,7 +1798,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1864,10 +1856,10 @@
       },
       "country": "🇧🇪",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 2 handle(s) found under the domain resolve (incelizade.is-extremely.gay, bkdk.is-extremely.gay)",
         "dns": {
@@ -1916,7 +1908,7 @@
       "maintainer": null,
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1925,7 +1917,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.1",
+            "216.150.16.1",
             "216.150.16.193"
           ],
           "nameservers": [
@@ -1963,7 +1955,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -1973,7 +1965,7 @@
           "resolves": true,
           "addresses": [
             "216.150.1.1",
-            "216.150.16.129"
+            "216.150.1.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2013,10 +2005,10 @@
       },
       "country": "🇧🇪",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (b555.lesbian.cat, maoraa6.lesbian.cat, bloomifebruary6.lesbian.cat, ltfaith369.lesbian.cat, zb1.lesbian.cat)",
         "dns": {
@@ -2092,7 +2084,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2144,10 +2136,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2173,7 +2165,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2213,7 +2205,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2264,10 +2256,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns1.atom.com belongs to a parking or domain marketplace service",
         "dns": {
@@ -2304,7 +2296,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2313,8 +2305,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.130",
-            "76.76.21.61"
+            "76.76.21.142",
+            "76.76.21.22"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2354,7 +2346,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2363,7 +2355,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.198.79.65",
+            "216.198.79.1",
             "64.29.17.1"
           ],
           "nameservers": [
@@ -2404,7 +2396,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2456,7 +2448,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2508,7 +2500,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2518,7 +2510,7 @@
           "resolves": true,
           "addresses": [
             "216.198.79.65",
-            "64.29.17.1"
+            "64.29.17.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -2555,10 +2547,10 @@
       "maintainer": null,
       "country": "🇬🇮",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2584,7 +2576,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2627,7 +2619,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2670,7 +2662,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2713,7 +2705,7 @@
       },
       "country": "🇺🇸",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2765,10 +2757,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -2794,10 +2786,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "parked or for sale: nameserver ns1.lander.d.parity.domains belongs to a parking or domain marketplace service",
         "dns": {
@@ -2835,7 +2827,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2887,7 +2879,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2939,7 +2931,7 @@
       },
       "country": "🇧🇷",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -2948,7 +2940,7 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "66.33.60.35",
+            "66.33.60.34",
             "76.76.21.123"
           ],
           "nameservers": [
@@ -2986,7 +2978,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3038,7 +3030,7 @@
       },
       "country": "🇧🇪",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3073,7 +3065,7 @@
       "maintainer": null,
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3125,10 +3117,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 4 handle(s) found under the domain resolve (9i520.tired.io, 247.tired.io, 7.tired.io, 705340.tired.io)",
         "dns": {
@@ -3198,10 +3190,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (apogrifa.tripazeada.club, viipriv.tripazeada.club, mariaa034.tripazeada.club, vipaiz16.tripazeada.club, fakeroy17.tripazeada.club)",
         "dns": {
@@ -3280,10 +3272,10 @@
       },
       "country": "🇧🇷",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -3309,12 +3301,12 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 2,
+        "consecutive_failures": 3,
         "method": "sample_handle",
-        "summary": "none of the 2 handle(s) found under the domain resolve (mrboy026.vibes.cool, ren0620.vibes.cool)",
+        "summary": "none of the 1 handle(s) found under the domain resolve (mrboy026.vibes.cool)",
         "dns": {
           "resolves": true,
           "addresses": [
@@ -3341,14 +3333,6 @@
             "did": null,
             "via": null,
             "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
-          },
-          {
-            "handle": "ren0620.vibes.cool",
-            "source": "bluesky-search",
-            "ok": false,
-            "did": null,
-            "via": null,
-            "error": "handle does not resolve (no _atproto TXT record; well-known HTTP 500)"
           }
         ],
         "sample_handle": null,
@@ -3366,10 +3350,10 @@
       },
       "country": "🇺🇸",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "domain_only",
         "summary": "domain does not exist in DNS (NXDOMAIN): registration lapsed or the domain was removed",
         "dns": {
@@ -3395,7 +3379,7 @@
       },
       "country": "🌐",
       "status": "Active",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "pass",
         "consecutive_failures": 0,
@@ -3404,8 +3388,8 @@
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.1",
-            "216.150.16.193"
+            "216.150.1.193",
+            "216.150.1.65"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
@@ -3445,17 +3429,17 @@
       },
       "country": "🇧🇪",
       "status": "Deprecated",
-      "last_checked": "2026-10-21",
+      "last_checked": "2026-10-26",
       "check": {
         "result": "fail",
-        "consecutive_failures": 3,
+        "consecutive_failures": 4,
         "method": "sample_handle",
         "summary": "none of the 5 handle(s) found under the domain resolve (gustabunny1.woke.cat, yuutaa1026.woke.cat, twok1.woke.cat, pepiux1.woke.cat, 186.woke.cat)",
         "dns": {
           "resolves": true,
           "addresses": [
-            "216.150.1.1",
-            "216.150.16.129"
+            "216.150.1.65",
+            "216.150.16.1"
           ],
           "nameservers": [
             "ns1.vercel-dns.com",
