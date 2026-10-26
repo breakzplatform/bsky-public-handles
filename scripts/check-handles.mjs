@@ -281,8 +281,13 @@ async function findSamples(entry, pages) {
 async function didClaimsHandle(did, handle) {
   let url;
   if (did.startsWith("did:plc:")) url = `https://plc.directory/${did}`;
-  else if (did.startsWith("did:web:")) url = `https://${decodeURIComponent(did.slice(8))}/.well-known/did.json`;
-  else return { ok: false, error: `unsupported DID method (${did})` };
+  else if (did.startsWith("did:web:")) {
+    // The host comes from a stranger's DNS record; without this check it could
+    // be an IP literal, a port or a path, and the runner would fetch it.
+    const host = decodeURIComponent(did.slice(8));
+    if (!/^(?=.*[a-z])[a-z0-9-]+(\.[a-z0-9-]+)+$/i.test(host)) return { ok: false, error: "unsupported did:web host" };
+    url = `https://${host}/.well-known/did.json`;
+  } else return { ok: false, error: `unsupported DID method (${did})` };
   try {
     const res = await withRetry(() => fetchText(url, { accept: "application/json" }));
     if (res.status === 404 || res.status === 410) return { ok: false, error: "DID not found" };
@@ -304,7 +309,7 @@ async function verifyHandle({ handle, source }) {
 
   try {
     const txt = await dns(`_atproto.${handle}`, "TXT");
-    const did = txt.answers.map((t) => t.match(/^did=(did:[a-z]+:\S+)$/)?.[1]).find(Boolean);
+    const did = txt.answers.map((t) => t.match(/^did=(did:[a-z]+:[a-zA-Z0-9._:%-]+)$/)?.[1]).find(Boolean);
     if (did) dids.push({ did, via: "dns" });
   } catch {
     inconclusive = true;
