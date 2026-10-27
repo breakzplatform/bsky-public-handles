@@ -42,17 +42,34 @@
     .hn-btn-sm { padding: 4px 7px; font-size: var(--text-meta); }
 
     /* The wordmark: the name on an ink block tilted +1.5deg like a sticker,
-       the domain plain. Sized to fit "handles.notx.blue" on one line at 320px. */
+       the domain plain. down.blue's size, line height and margins. */
     .hn-wordmark {
       margin: var(--space-10) 0 var(--space-6);
-      font: var(--weight-display) clamp(34px, 9.6vw, 88px)/1.1 var(--font-display);
+      font: var(--weight-display) clamp(var(--text-display-1), 13vw, 116px)/1.1 var(--font-display);
       letter-spacing: var(--tracking-display);
       color: var(--text-1);
       text-align: center;
       white-space: nowrap;
     }
+    /* The *.notx.blue rule (links.notx.blue): the first word keeps down.blue's
+       exact size, and the shared ".notx.blue" suffix is set smaller so the
+       whole name fits the column without shrinking that word. Same font,
+       weight and baseline; tracking is re-applied so it scales with the
+       suffix. "handles" is longer than "links", so below the width where the
+       whole name (--wordmark-em wide) fits the column, the size is capped to
+       fill it instead of overflowing. */
+    .hn-wordmark {
+      --wordmark-suffix-scale: 0.66;
+      --wordmark-em: 7;
+      font-size: min(clamp(var(--text-display-1), 13vw, 116px), (min(100vw, var(--page-max)) - 2 * var(--page-pad-x)) / var(--wordmark-em));
+    }
+    .wordmark-suffix {
+      font-size: calc(var(--wordmark-suffix-scale) * 1em);
+      letter-spacing: var(--tracking-display);
+    }
 
-    .hn-panel { margin: var(--space-11) 0 var(--space-10); }
+    /* down.blue's gap from the wordmark to the first panel (its mt-15). */
+    .hn-panel { margin: calc(var(--space-10) + var(--space-8)) 0 var(--space-10); }
     .hn-panel-head {
       display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
       margin: 0; padding: var(--box-head-pad); border-bottom: var(--border);
@@ -152,7 +169,7 @@
     </div>
 
     <main>
-      <h1 class="hn-wordmark"><span class="ink-block tilt-cw">handles</span>.notx.blue</h1>
+      <h1 class="hn-wordmark"><span class="ink-block tilt-cw">handles</span><span class="wordmark-suffix">.notx.blue</span></h1>
 
       <section class="hn-panel cast" aria-labelledby="list-title">
         <h2 class="hn-panel-head" id="list-title"><span data-i18n="panelTitle">Domains</span><span id="total"></span></h2>
