@@ -99,6 +99,10 @@ Here is the table ordered alphabetically by URL:
 
 <!-- handles:end -->
 
+## Page titles
+
+Every page's `<title>`, `og:title` and `twitter:title` read `<page description> • <domain>` (U+2022 with one space on each side), with the description in the page's language: `Public handles for Bluesky and the Atmosphere • handles.notx.blue`.
+
 ## Add your domain
 
 Run a domain where anyone can get a Bluesky handle? Add it to the list:
